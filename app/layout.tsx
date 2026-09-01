@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://omar-portfolio-black-theta.vercel.app"),
   title: {
     default: "Omar Alotaibi | Management Information Systems & Technology",
     template: "%s | Omar Alotaibi",
