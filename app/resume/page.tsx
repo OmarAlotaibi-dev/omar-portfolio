@@ -50,7 +50,7 @@ export default function ResumePage() {
       date: "January 2026",
     },
     {
-      degree: "Bachelor of Science",
+      degree: "Bachelor of Arts ",
       field: "Information Science, Information Resources Management and Services",
       university: "King Saud University",
       location: "Riyadh, Saudi Arabia",
