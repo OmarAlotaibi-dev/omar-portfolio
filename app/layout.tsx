@@ -27,21 +27,30 @@ export const metadata: Metadata = {
   authors: [{ name: "Omar Alotaibi" }],
   creator: "Omar Alotaibi",
 
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    title: "Omar Alotaibi | Management Information Systems & Technology",
-    description:
-      "Professional portfolio featuring experience, technical projects, research, and skills across information systems, software, data, and IT.",
-    siteName: "Omar Alotaibi Portfolio",
-  },
+openGraph: {
+  type: "website",
+  locale: "en_US",
+  title: "Omar Alotaibi | Management Information Systems & Technology",
+  description:
+    "Professional portfolio featuring experience, technical projects, research, and skills across information systems, software, data, and IT.",
+  siteName: "Omar Alotaibi Portfolio",
+  images: [
+    {
+      url: "/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "Omar Alotaibi Professional Portfolio",
+    },
+  ],
+},
 
-  twitter: {
-    card: "summary",
-    title: "Omar Alotaibi | Management Information Systems & Technology",
-    description:
-      "Professional portfolio featuring experience, technical projects, research, and skills across information systems, software, data, and IT.",
-  },
+twitter: {
+  card: "summary_large_image",
+  title: "Omar Alotaibi | Management Information Systems & Technology",
+  description:
+    "Professional portfolio featuring experience, technical projects, research, and skills across information systems, software, data, and IT.",
+  images: ["/og-image.png"],
+},
 
   robots: {
     index: true,
