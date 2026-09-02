@@ -207,9 +207,14 @@ export default function TechSupportProPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Ticket Workflow
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Ticket Workflow
+  </p>
+</div>
+
               </div>
 
               <div>
@@ -244,17 +249,21 @@ export default function TechSupportProPage() {
                         "The completed support request reaches its final status.",
                     },
                   ].map((step) => (
-                    <div
-                      key={step.number}
-                      className="border-t border-black/10 pt-5"
-                    >
-                      <p className="text-xs text-black/35">
-                        {step.number}
-                      </p>
+<div
+  key={step.number}
+  className="group border-t border-black/10 py-6"
+>
+<div className="flex items-center gap-3">
+  <span className="font-mono text-xs tracking-wide text-black/35">
+    {step.number}
+  </span>
 
-                      <h3 className="mt-2 text-lg font-semibold tracking-tight">
-                        {step.title}
-                      </h3>
+  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+</div>
+
+<h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+  {step.title}
+</h3>
 
                       <p className="mt-3 text-sm leading-6 text-black/55">
                         {step.description}
@@ -272,77 +281,105 @@ export default function TechSupportProPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  What I Built
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    What I Built
+  </p>
+</div>
               </div>
 
               <div className="grid gap-8 sm:grid-cols-2">
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    Authentication
-                  </h3>
+                <div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Implemented user registration and login functionality with
-                    password handling and session-based authentication.
-                  </p>
-                </div>
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      Authentication
+    </h3>
+  </div>
 
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    Role-Based Access
-                  </h3>
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Implemented user registration and login functionality with
+    password handling and session-based authentication.
+  </p>
+</div>
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Separated user and administrator capabilities through
-                    role-based access and validation.
-                  </p>
-                </div>
+<div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
 
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    Ticket Management
-                  </h3>
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      Role-Based Access
+    </h3>
+  </div>
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Built functionality for creating, reviewing, updating, and
-                    tracking support tickets through multiple statuses.
-                  </p>
-                </div>
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Separated user and administrator capabilities through
+    role-based access and validation.
+  </p>
+</div>
 
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    Database Integration
-                  </h3>
+                <div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Connected the application to a MySQL database for users,
-                    tickets, roles, and application data.
-                  </p>
-                </div>
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      Ticket Management
+    </h3>
+  </div>
 
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    User Dashboard
-                  </h3>
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Built functionality for creating, reviewing, updating, and
+    tracking support tickets through multiple statuses.
+  </p>
+</div>
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Created a user-facing interface for accessing and managing
-                    submitted support requests.
-                  </p>
-                </div>
+               <div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
 
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    Admin Dashboard
-                  </h3>
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      Database Integration
+    </h3>
+  </div>
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Created administrative functionality for handling support
-                    requests and monitoring ticket activity.
-                  </p>
-                </div>
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Connected the application to a MySQL database for users,
+    tickets, roles, and application data.
+  </p>
+</div>
+
+                <div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      User Dashboard
+    </h3>
+  </div>
+
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Created a user-facing interface for accessing and managing
+    submitted support requests.
+  </p>
+</div>
+
+                <div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      Admin Dashboard
+    </h3>
+  </div>
+
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Created administrative functionality for handling support
+    requests and monitoring ticket activity.
+  </p>
+</div>
               </div>
             </div>
           </div>
@@ -353,17 +390,36 @@ export default function TechSupportProPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Database
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Database
+  </p>
+</div>
               </div>
 
               <div>
                 <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
                   Relational data behind the application.
                 </h2>
+                <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>Users</span>
 
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+  <div className="h-px w-8 bg-black/15" />
+
+  <span>Tickets</span>
+
+  <div className="h-px w-8 bg-black/15" />
+
+  <span>Roles</span>
+
+  <div className="h-px w-8 bg-black/15" />
+
+  <span>Status</span>
+</div>
+
+                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   The application uses MySQL to store and manage users,
                   authentication-related data, support tickets, ticket status,
                   and information required by the user and administrator
@@ -385,12 +441,16 @@ export default function TechSupportProPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Technologies
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Technologies
+  </p>
+</div>
               </div>
 
-              <div className="flex flex-wrap gap-3">
+              <div className="grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
                 {[
                   "PHP",
                   "MySQL",
@@ -401,12 +461,14 @@ export default function TechSupportProPage() {
                   "Git",
                   "GitHub",
                 ].map((technology) => (
-                  <span
-                    key={technology}
-                    className="rounded-full border border-black/10 px-4 py-2 text-sm text-black/60"
-                  >
-                    {technology}
-                  </span>
+<span
+  key={technology}
+  className="group flex items-center gap-3 border-t border-black/10 px-1 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
+>
+  <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-black/35" />
+
+  {technology}
+</span>
                 ))}
               </div>
             </div>
@@ -418,32 +480,52 @@ export default function TechSupportProPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Key Takeaways
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Key Takeaways
+  </p>
+</div>
               </div>
 
               <div>
                 <ul className="divide-y divide-black/10 border-y border-black/10">
-                  <li className="py-6 text-base text-black/65">
-                    Connecting front-end interfaces with PHP application logic
-                    and a relational database.
-                  </li>
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <li className="py-6 text-base text-black/65">
-                    Implementing authentication, sessions, and role-based
-                    application access.
-                  </li>
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Connecting front-end interfaces with PHP application logic
+    and a relational database.
+  </span>
+</li>
 
-                  <li className="py-6 text-base text-black/65">
-                    Designing a ticket workflow with multiple application
-                    states.
-                  </li>
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <li className="py-6 text-base text-black/65">
-                    Building separate user and administrator experiences within
-                    the same application.
-                  </li>
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Implementing authentication, sessions, and role-based
+    application access.
+  </span>
+</li>
+
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Designing a ticket workflow with multiple application
+    states.
+  </span>
+</li>
+
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Building separate user and administrator experiences within
+    the same application.
+  </span>
+</li>
                 </ul>
               </div>
             </div>
@@ -453,19 +535,27 @@ export default function TechSupportProPage() {
         {/* Links */}
         <section className="border-t border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24">
-            <p className="mb-6 text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-              Project Repository
-            </p>
+<div className="mb-8 flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
 
-            <div className="flex flex-wrap gap-3">
-              <a
-                href="https://github.com/OmarAlotaibi-dev/tech-support-pro"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-black/85"
-              >
-                View on GitHub ↗
-              </a>
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Project Repository
+  </p>
+</div>
+
+            <div className="mt-8 max-w-sm">
+             <a
+  href="https://github.com/OmarAlotaibi-dev/tech-support-pro"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group inline-flex items-center justify-between gap-8 bg-black px-6 py-4 text-sm font-medium text-white transition-all duration-300 hover:bg-black/85"
+>
+  <span>View on GitHub</span>
+
+  <span className="text-white/60 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-1">
+    ↗
+  </span>
+</a>
             </div>
           </div>
         </section>

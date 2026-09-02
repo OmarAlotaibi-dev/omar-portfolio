@@ -64,9 +64,13 @@ export default function ResearchPage() {
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
-            <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-              Research
-            </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Research
+  </p>
+</div>
 
             <h1 className="mt-5 max-w-4xl text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
               Research across databases, AI policy, and emerging technology.
@@ -77,6 +81,13 @@ export default function ResearchPage() {
               artificial intelligence policy and governance, digital
               transformation, and blockchain technologies.
             </p>
+            <div className="mt-10 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>Databases</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>AI Policy</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Emerging Technology</span>
+</div>
           </div>
         </section>
 
@@ -85,21 +96,29 @@ export default function ResearchPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Research Areas
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Research Areas
+  </p>
+</div>
               </div>
 
               <div className="grid gap-x-10 gap-y-8 sm:grid-cols-2">
                 {researchAreas.map((area) => (
                   <div
-                    key={area}
-                    className="border-t border-black/10 pt-5"
-                  >
-                    <p className="text-lg font-medium tracking-tight">
-                      {area}
-                    </p>
-                  </div>
+  key={area}
+  className="group border-t border-black/10 py-5"
+>
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+
+    <p className="text-lg font-medium tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+      {area}
+    </p>
+  </div>
+</div>
                 ))}
               </div>
             </div>
@@ -110,7 +129,7 @@ export default function ResearchPage() {
         {researchProjects.map((research) => (
           <section
             key={research.number}
-            className="border-t border-black/10"
+            className="group border-t border-black/10 transition-colors duration-300 hover:bg-black/[0.015]"
           >
             <div className="mx-auto max-w-7xl px-6 py-24">
               <div className="grid gap-10 lg:grid-cols-[120px_0.7fr_1.3fr] lg:gap-12">
@@ -121,30 +140,35 @@ export default function ResearchPage() {
                 </div>
 
                 <div>
-                  <p className="text-sm uppercase tracking-[0.15em] text-black/45">
-                    {research.category}
-                  </p>
+  <div className="flex items-center gap-3">
+    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <h2 className="mt-4 text-3xl font-semibold tracking-tight">
-                    {research.title}
-                  </h2>
-                </div>
+    <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/40">
+      {research.category}
+    </p>
+  </div>
+
+  <h2 className="mt-4 text-3xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    {research.title}
+  </h2>
+</div>
 
                 <div>
-                  <p className="text-base leading-7 text-black/60 sm:text-lg">
+                  <p className="max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
                     {research.description}
                   </p>
 
-                  <div className="mt-8 flex flex-wrap gap-2">
-                    {research.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="rounded-full border border-black/10 px-3 py-1 text-xs text-black/50"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
+<div className="mt-8 grid gap-x-6 sm:grid-cols-2">
+  {research.tags.map((tag) => (
+    <div
+      key={tag}
+      className="flex items-center gap-3 border-t border-black/10 py-3 text-xs font-medium uppercase tracking-[0.12em] text-black/45"
+    >
+      <span className="h-px w-4 bg-black/15" />
+      {tag}
+    </div>
+  ))}
+</div>
                 </div>
               </div>
             </div>
@@ -156,9 +180,13 @@ export default function ResearchPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Research Approach
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Research Approach
+  </p>
+</div>
               </div>
 
               <div>
@@ -166,8 +194,15 @@ export default function ResearchPage() {
                   Connecting technical analysis with broader business and
                   policy context.
                 </h2>
+                <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>Technical Analysis</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Business Context</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Policy Context</span>
+</div>
 
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   My research work examines both technical systems and the
                   broader environments in which technology is adopted. This
                   includes database architecture and performance, artificial
@@ -184,13 +219,17 @@ export default function ResearchPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Research Direction
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Research Direction
+  </p>
+</div>
               </div>
 
               <div>
-                <p className="max-w-3xl text-xl leading-9 text-black/70">
+                <p className="max-w-4xl text-2xl font-medium leading-relaxed tracking-tight text-black/70 sm:text-3xl">
                   Exploring how data, information systems, artificial
                   intelligence, and emerging technologies shape technical and
                   organizational decision-making.

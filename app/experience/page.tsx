@@ -105,9 +105,13 @@ export default function ExperiencePage() {
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
-            <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-              Professional Experience
-            </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Professional Experience
+  </p>
+</div>
 
             <h1 className="mt-5 max-w-5xl text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
               Experience across IT, data, operations, and information
@@ -119,6 +123,13 @@ export default function ExperiencePage() {
               infrastructure, data operations, workflow improvement, records,
               and organizational processes.
             </p>
+            <div className="mt-10 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>Operations</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Data</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Information Technology</span>
+</div>
           </div>
         </section>
 
@@ -128,36 +139,48 @@ export default function ExperiencePage() {
             <div className="divide-y divide-black/10 border-y border-black/10">
               {experience.map((item, index) => (
                 <article
-                  key={`${item.organization}-${item.title}`}
-                  className="grid gap-10 py-14 lg:grid-cols-[120px_0.8fr_1.2fr]"
-                >
+  key={`${item.organization}-${item.title}`}
+  className="group grid gap-10 py-14 transition-colors duration-300 hover:bg-black/[0.015] lg:grid-cols-[120px_0.8fr_1.2fr]"
+>
                   {/* Number */}
-                  <div>
-                    <p className="text-sm text-black/35">
-                      {String(index + 1).padStart(2, "0")}
-                    </p>
-                  </div>
+<div>
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      {String(index + 1).padStart(2, "0")}
+    </span>
+
+    <div className="h-px w-8 bg-black/10 transition-all duration-300 group-hover:w-12 group-hover:bg-black/30" />
+  </div>
+</div>
 
                   {/* Role */}
                   <div>
-                    <p className="text-sm uppercase tracking-[0.15em] text-black/40">
-                      {item.period}
-                    </p>
+<div className="flex items-center gap-3">
+  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                    <h2 className="mt-4 text-2xl font-semibold tracking-tight sm:text-3xl">
-                      {item.title}
-                    </h2>
+  <p className="font-mono text-xs uppercase tracking-[0.12em] text-black/40">
+    {item.period}
+  </p>
+</div>
 
-                    <p className="mt-3 max-w-md text-sm leading-6 text-black/50">
-                      {item.organization}
-                    </p>
+<h2 className="mt-4 text-2xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1 sm:text-3xl">
+  {item.title}
+</h2>
+
+<div className="mt-4 flex items-start gap-3">
+  <div className="mt-3 h-px w-5 shrink-0 bg-black/15" />
+
+  <p className="max-w-md text-sm leading-6 text-black/50">
+    {item.organization}
+  </p>
+</div>
                   </div>
 
                   {/* Details */}
                   <div>
-                    <p className="max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
-                      {item.description}
-                    </p>
+<p className="max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
+  {item.description}
+</p>
 
                     {/* Responsibilities */}
                     <div className="mt-10">
@@ -166,14 +189,18 @@ export default function ExperiencePage() {
                       </p>
 
                       <ul className="mt-4 divide-y divide-black/10 border-y border-black/10">
-                        {item.responsibilities.map((responsibility) => (
-                          <li
-                            key={responsibility}
-                            className="py-4 text-sm leading-6 text-black/60"
-                          >
-                            {responsibility}
-                          </li>
-                        ))}
+{item.responsibilities.map((responsibility) => (
+  <li
+    key={responsibility}
+    className="group/item flex items-start gap-3 py-4"
+  >
+    <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover/item:bg-black/60" />
+
+    <span className="text-sm leading-6 text-black/60 transition-transform duration-300 group-hover/item:translate-x-1 group-hover/item:text-black/75">
+      {responsibility}
+    </span>
+  </li>
+))}
                       </ul>
                     </div>
 
@@ -185,31 +212,36 @@ export default function ExperiencePage() {
                         </p>
 
                         <div className="mt-4 space-y-4">
-                          {item.impact.map((impact) => (
-                            <div
-                              key={impact}
-                              className="rounded-2xl border border-black/10 p-6"
-                            >
-                              <p className="text-base font-medium leading-7 text-black/75">
-                                {impact}
-                              </p>
-                            </div>
-                          ))}
+  {item.impact.map((impact) => (
+  <div
+    key={impact}
+    className="group/impact border-t border-black/10 py-5"
+  >
+    <div className="flex items-start gap-4">
+      <div className="mt-3 h-px w-6 shrink-0 bg-black/15 transition-all duration-300 group-hover/impact:w-10 group-hover/impact:bg-black/40" />
+
+      <p className="text-base font-medium leading-7 text-black/75 transition-transform duration-300 group-hover/impact:translate-x-1">
+        {impact}
+      </p>
+    </div>
+  </div>
+))}
                         </div>
                       </div>
                     )}
 
                     {/* Skills */}
-                    <div className="mt-8 flex flex-wrap gap-2">
-                      {item.skills.map((skill) => (
-                        <span
-                          key={skill}
-                          className="rounded-full border border-black/10 px-3 py-1.5 text-xs text-black/50"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
+<div className="mt-8 flex flex-wrap gap-x-5 gap-y-3">
+  {item.skills.map((skill) => (
+    <div
+      key={skill}
+      className="flex items-center gap-2 text-xs font-medium text-black/45"
+    >
+      <span className="h-px w-3 bg-black/15" />
+      <span>{skill}</span>
+    </div>
+  ))}
+</div>
                   </div>
                 </article>
               ))}
@@ -222,9 +254,13 @@ export default function ExperiencePage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Professional Capabilities
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Professional Capabilities
+  </p>
+</div>
               </div>
 
               <div>
@@ -234,15 +270,19 @@ export default function ExperiencePage() {
 
                 <div className="mt-10 grid gap-x-10 gap-y-8 sm:grid-cols-2">
                   {capabilities.map((capability) => (
-                    <div
-                      key={capability}
-                      className="border-t border-black/10 pt-5"
-                    >
-                      <p className="text-lg font-medium tracking-tight">
-                        {capability}
-                      </p>
-                    </div>
-                  ))}
+  <div
+    key={capability}
+    className="group/capability border-t border-black/10 py-5"
+  >
+    <div className="flex items-center gap-3">
+      <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover/capability:w-8 group-hover/capability:bg-black/35" />
+
+      <p className="text-lg font-medium tracking-tight transition-transform duration-300 group-hover/capability:translate-x-1">
+        {capability}
+      </p>
+    </div>
+  </div>
+))}
                 </div>
               </div>
             </div>
@@ -254,24 +294,34 @@ export default function ExperiencePage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Professional Progression
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Professional Progression
+  </p>
+</div>
               </div>
 
               <div>
                 <h2 className="max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">
                   A progression toward information systems and technology.
                 </h2>
-
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+<div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>Operations</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Data & Information</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>IT & Systems</span>
+</div>
+                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   My professional background began with operational and
                   government-process responsibilities, progressed into data
                   and information-management work, and later expanded into
                   hands-on IT support and infrastructure experience.
                 </p>
 
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+               <p className="mt-6 max-w-3xl pl-5 text-base leading-7 text-black/50 sm:text-lg">
                   Together with my graduate work in Management Information
                   Systems, these experiences have given me exposure to both
                   organizational processes and the technical systems that
@@ -287,18 +337,22 @@ export default function ExperiencePage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Beyond Professional Experience
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Beyond Professional Experience
+  </p>
+</div>
               </div>
 
               <div>
-                <p className="max-w-3xl text-xl leading-9 text-black/70">
+                <p className="max-w-4xl text-2xl font-medium leading-relaxed tracking-tight text-black/70 sm:text-3xl">
                   Professional experience and technical project work are
                   presented separately throughout this portfolio.
                 </p>
 
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+               <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   This page focuses specifically on formal employment and
                   professional responsibilities. Technical applications,
                   systems-analysis work, database projects, and research are
@@ -310,36 +364,54 @@ export default function ExperiencePage() {
         </section>
 
         {/* Next Step */}
-        <section className="border-t border-black/10">
-          <div className="mx-auto max-w-7xl px-6 py-24">
-            <div className="rounded-3xl bg-black px-8 py-12 text-white sm:px-12 sm:py-16">
-              <p className="text-sm uppercase tracking-[0.18em] text-white/50">
-                Explore More
-              </p>
+       {/* Next Step */}
+<section className="border-t border-black/10">
+  <div className="mx-auto max-w-7xl px-6 py-24">
+    <div className="relative overflow-hidden bg-black px-8 py-12 text-white sm:px-12 sm:py-16">
+      <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full border border-white/10" />
+      <div className="pointer-events-none absolute -bottom-32 right-24 h-72 w-72 rounded-full border border-white/[0.06]" />
 
-              <h2 className="mt-5 max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">
-                See how my technical and academic work complements my
-                professional experience.
-              </h2>
+      <div className="relative z-10">
+        <div className="flex items-center gap-3">
+          <div className="h-px w-8 bg-white/25" />
 
-              <div className="mt-8 flex flex-wrap gap-3">
-                <a
-                  href="/projects"
-                  className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition-opacity hover:opacity-80"
-                >
-                  View Projects
-                </a>
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/50">
+            Explore More
+          </p>
+        </div>
 
-                <a
-                  href="/research"
-                  className="rounded-full border border-white/30 px-6 py-3 text-sm font-medium text-white transition-colors hover:border-white"
-                >
-                  View Research
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <h2 className="mt-5 max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">
+          See how my technical and academic work complements my
+          professional experience.
+        </h2>
+
+        <div className="mt-8 flex flex-wrap gap-3">
+          <a
+            href="/projects"
+            className="group inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/90"
+          >
+            View Projects
+
+            <span className="transition-transform duration-300 group-hover:translate-x-1">
+              →
+            </span>
+          </a>
+
+          <a
+            href="/research"
+            className="group inline-flex items-center gap-3 border border-white/30 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-white"
+          >
+            View Research
+
+            <span className="transition-transform duration-300 group-hover:translate-x-1">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       </main>
 
       <Footer />

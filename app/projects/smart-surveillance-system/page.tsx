@@ -97,16 +97,25 @@ export default function SmartSurveillanceSystemPage() {
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
             <a
-              href="/projects"
-              className="inline-flex items-center text-sm text-black/45 transition-colors hover:text-black"
-            >
-              ← Back to Projects
-            </a>
+  href="/projects"
+  className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-black"
+>
+  <span className="transition-transform duration-300 group-hover:-translate-x-1">
+    ←
+  </span>
 
+  <span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-black/50">
+    Back to Projects
+  </span>
+</a>
             <div className="mt-16 max-w-5xl">
-              <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                Systems Analysis & Design
-              </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Systems Analysis & Design
+  </p>
+</div>
 
               <h1 className="mt-5 text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
                 Smart Surveillance Camera Information System
@@ -120,42 +129,45 @@ export default function SmartSurveillanceSystemPage() {
               </p>
             </div>
 
-            <div className="mt-12 grid gap-8 border-t border-black/10 pt-8 sm:grid-cols-4">
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
-                  Type
-                </p>
+            <div className="mt-12 grid gap-8 border-y border-black/10 py-7 sm:grid-cols-4 sm:divide-x sm:divide-black/10">
+              <div className="sm:pr-8">
+  <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+    Type
+  </p>
 
-                <p className="mt-2 text-sm font-medium">
-                  Academic Group Project
-                </p>
-              </div>
+  <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
+    Academic Group Project
+  </p>
+</div>
 
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
-                  Course
-                </p>
+              <div className="sm:px-8">
+  <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+    Course
+  </p>
 
-                <p className="mt-2 text-sm font-medium">CSCI 7727</p>
-              </div>
+  <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
+    CSCI 7727
+  </p>
+</div>
+              <div className="sm:px-8">
+  <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+    Focus
+  </p>
 
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
-                  Focus
-                </p>
+  <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
+    Systems Analysis & Design
+  </p>
+</div>
 
-                <p className="mt-2 text-sm font-medium">
-                  Systems Analysis & Design
-                </p>
-              </div>
+<div className="sm:pl-8">
+  <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+    Score
+  </p>
 
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
-                  Score
-                </p>
-
-                <p className="mt-2 text-sm font-medium">94 / 100</p>
-              </div>
+  <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
+    94 / 100
+  </p>
+</div>
             </div>
           </div>
         </section>
@@ -165,17 +177,28 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Overview
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Overview
+  </p>
+</div>
               </div>
 
               <div>
                 <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
                   From system behavior to structured design.
                 </h2>
+                <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>Scenarios</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Behavioral Models</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>System Design</span>
+</div>
 
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   The project analyzed a proposed smart surveillance camera
                   information system covering motion detection, notifications,
                   live video, recorded video playback, account management,
@@ -198,9 +221,13 @@ export default function SmartSurveillanceSystemPage() {
         <section className="border-t border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-20 sm:py-24">
             <div className="mb-8 max-w-3xl">
-              <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                Featured Diagram
-              </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Featured Diagram
+  </p>
+</div>
 
               <h2 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
                 Motion Detection Sequence Diagram
@@ -215,18 +242,18 @@ export default function SmartSurveillanceSystemPage() {
             </div>
 
             <figure>
-              <div className="overflow-hidden rounded-2xl border border-black/10 bg-white">
+              <div className="group overflow-hidden rounded-2xl border border-black/10 bg-black/[0.02] p-2 transition-all duration-300 hover:border-black/20">
                 <Image
                   src="/projects/smart-surveillance-sequence.png"
                   alt="Motion Detection sequence diagram for the Smart Surveillance Camera Information System"
                   width={1234}
                   height={606}
-                  className="h-auto w-full"
+                  className="h-auto w-full rounded-xl transition-transform duration-500 group-hover:scale-[1.01]"
                   priority
                 />
               </div>
 
-              <figcaption className="mt-4 text-sm leading-6 text-black/45">
+              <figcaption className="mt-4 text-xs font-medium tracking-wide text-black/40">
                 Motion Detection Sequence Diagram — developed as part of my
                 contribution to the system&apos;s behavioral analysis.
               </figcaption>
@@ -239,9 +266,13 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  System Scope
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    System Scope
+  </p>
+</div>
               </div>
 
               <div>
@@ -252,14 +283,20 @@ export default function SmartSurveillanceSystemPage() {
                 <div className="mt-10 grid gap-8 sm:grid-cols-2">
                   {functionalities.map((item) => (
                     <div
-                      key={item.number}
-                      className="border-t border-black/10 pt-5"
-                    >
-                      <p className="text-xs text-black/35">{item.number}</p>
+  key={item.number}
+  className="group border-t border-black/10 py-6"
+>
+                     <div className="flex items-center gap-3">
+  <span className="font-mono text-xs tracking-wide text-black/35">
+    {item.number}
+  </span>
 
-                      <h3 className="mt-2 text-lg font-semibold tracking-tight">
-                        {item.title}
-                      </h3>
+  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+</div>
+
+<h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+  {item.title}
+</h3>
 
                       <p className="mt-3 text-sm leading-6 text-black/55">
                         {item.description}
@@ -277,9 +314,13 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Analysis Process
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Analysis Process
+  </p>
+</div>
               </div>
 
               <div>
@@ -288,12 +329,18 @@ export default function SmartSurveillanceSystemPage() {
                 </h2>
 
                 <div className="mt-10 grid gap-8 sm:grid-cols-2">
-                  <div className="border-t border-black/10 pt-5">
-                    <p className="text-xs text-black/35">01</p>
+                  <div className="group border-t border-black/10 py-6">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      01
+    </span>
 
-                    <h3 className="mt-2 text-lg font-semibold">
-                      Scenario Analysis
-                    </h3>
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  </div>
+
+  <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Scenario Analysis
+  </h3>
 
                     <p className="mt-3 text-sm leading-6 text-black/55">
                       Defined realistic user and system scenarios to describe
@@ -301,12 +348,18 @@ export default function SmartSurveillanceSystemPage() {
                     </p>
                   </div>
 
-                  <div className="border-t border-black/10 pt-5">
-                    <p className="text-xs text-black/35">02</p>
+<div className="group border-t border-black/10 py-6">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      02
+    </span>
 
-                    <h3 className="mt-2 text-lg font-semibold">
-                      Use Case Refinement
-                    </h3>
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  </div>
+
+  <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Use Case Refinement
+  </h3>
 
                     <p className="mt-3 text-sm leading-6 text-black/55">
                       The team developed initial and refined use cases,
@@ -315,12 +368,18 @@ export default function SmartSurveillanceSystemPage() {
                     </p>
                   </div>
 
-                  <div className="border-t border-black/10 pt-5">
-                    <p className="text-xs text-black/35">03</p>
+                  <div className="group border-t border-black/10 py-6">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      03
+    </span>
 
-                    <h3 className="mt-2 text-lg font-semibold">
-                      Behavioral Modeling
-                    </h3>
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  </div>
+
+  <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Behavioral Modeling
+  </h3>
 
                     <p className="mt-3 text-sm leading-6 text-black/55">
                       Converted system behavior and interactions into sequence
@@ -328,12 +387,18 @@ export default function SmartSurveillanceSystemPage() {
                     </p>
                   </div>
 
-                  <div className="border-t border-black/10 pt-5">
-                    <p className="text-xs text-black/35">04</p>
+                  <div className="group border-t border-black/10 py-6">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      04
+    </span>
 
-                    <h3 className="mt-2 text-lg font-semibold">
-                      Detailed Design
-                    </h3>
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  </div>
+
+  <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Detailed Design
+  </h3>
 
                     <p className="mt-3 text-sm leading-6 text-black/55">
                       Extended the analysis into class and object design,
@@ -352,9 +417,13 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Project Artifacts
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Project Artifacts
+  </p>
+</div>
               </div>
 
               <div>
@@ -364,12 +433,15 @@ export default function SmartSurveillanceSystemPage() {
 
                 <div className="mt-10 grid gap-x-8 sm:grid-cols-2">
                   {projectArtifacts.map((artifact) => (
-                    <div
-                      key={artifact}
-                      className="border-t border-black/10 py-4 text-sm text-black/60"
-                    >
-                      {artifact}
-                    </div>
+<div
+  key={artifact}
+  className="group flex items-center gap-3 border-t border-black/10 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
+>
+  <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-7 group-hover:bg-black/35" />
+  <span className="transition-transform duration-300 group-hover:translate-x-1">
+    {artifact}
+  </span>
+</div>
                   ))}
                 </div>
               </div>
@@ -382,17 +454,27 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Object Design
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Object Design
+  </p>
+</div>
               </div>
 
               <div>
                 <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
                   Extending the analysis into object-level specifications.
                 </h2>
-
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+<div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>Interfaces</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Constraints</span>
+  <div className="h-px w-8 bg-black/15" />
+  <span>Object Behavior</span>
+</div>
+                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   Part B extended the project into object design with interface
                   specifications, invariants, preconditions, and postconditions
                   for system entities including WiFi, Account, Motion, Camera,
@@ -414,9 +496,13 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  System Architecture
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    System Architecture
+  </p>
+</div>
               </div>
 
               <div>
@@ -431,29 +517,59 @@ export default function SmartSurveillanceSystemPage() {
                 </p>
 
                 <div className="mt-10 grid gap-8 sm:grid-cols-3">
-                  <div className="border-t border-black/10 pt-5">
-                    <h3 className="text-lg font-semibold">Model</h3>
+<div className="group border-t border-black/10 py-6">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      01
+    </span>
 
-                    <p className="mt-3 text-sm leading-6 text-black/55">
-                      Manages system data and business logic.
-                    </p>
-                  </div>
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  </div>
 
-                  <div className="border-t border-black/10 pt-5">
-                    <h3 className="text-lg font-semibold">View</h3>
+  <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Model
+  </h3>
 
-                    <p className="mt-3 text-sm leading-6 text-black/55">
-                      Presents system information and interfaces to users.
-                    </p>
-                  </div>
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Manages system data and business logic.
+  </p>
+</div>
 
-                  <div className="border-t border-black/10 pt-5">
-                    <h3 className="text-lg font-semibold">Controller</h3>
+<div className="group border-t border-black/10 py-6">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      02
+    </span>
 
-                    <p className="mt-3 text-sm leading-6 text-black/55">
-                      Coordinates user interactions and system behavior.
-                    </p>
-                  </div>
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  </div>
+
+  <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    View
+  </h3>
+
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Presents system information and interfaces to users.
+  </p>
+</div>
+
+                  <div className="group border-t border-black/10 py-6">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      03
+    </span>
+
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  </div>
+
+  <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Controller
+  </h3>
+
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Coordinates user interactions and system behavior.
+  </p>
+</div>
                 </div>
               </div>
             </div>
@@ -465,9 +581,13 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  My Contribution
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    My Contribution
+  </p>
+</div>
               </div>
 
               <div>
@@ -476,7 +596,7 @@ export default function SmartSurveillanceSystemPage() {
                   design.
                 </h2>
 
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+               <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   In Part A, I developed the system scenarios across the core
                   functionalities and created the corresponding sequence
                   diagrams, translating user interactions and expected system
@@ -498,11 +618,15 @@ export default function SmartSurveillanceSystemPage() {
                 <div className="mt-10 grid gap-x-8 sm:grid-cols-2">
                   {contributions.map((item) => (
                     <div
-                      key={item}
-                      className="border-t border-black/10 py-4 text-sm text-black/60"
-                    >
-                      {item}
-                    </div>
+  key={item}
+  className="group flex items-center gap-3 border-t border-black/10 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
+>
+  <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+
+  <span className="transition-transform duration-300 group-hover:translate-x-1">
+    {item}
+  </span>
+</div>
                   ))}
                 </div>
               </div>
@@ -515,21 +639,29 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Methods & Concepts
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Methods & Concepts
+  </p>
+</div>
               </div>
 
-              <div className="flex flex-wrap gap-3">
-                {methods.map((method) => (
-                  <span
-                    key={method}
-                    className="rounded-full border border-black/10 px-4 py-2 text-sm text-black/60"
-                  >
-                    {method}
-                  </span>
-                ))}
-              </div>
+<div className="grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+  {methods.map((method) => (
+    <div
+      key={method}
+      className="group flex items-center gap-3 border-t border-black/10 px-1 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
+    >
+      <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-black/35" />
+
+      <span className="transition-transform duration-300 group-hover:translate-x-1">
+        {method}
+      </span>
+    </div>
+  ))}
+</div>
             </div>
           </div>
         </section>
@@ -539,42 +671,70 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Key Takeaways
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Key Takeaways
+  </p>
+</div>
               </div>
 
               <div>
                 <ul className="divide-y divide-black/10 border-y border-black/10">
-                  <li className="py-6 text-base text-black/65">
-                    Translating real-world system behavior into structured
-                    scenarios and interaction flows.
-                  </li>
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <li className="py-6 text-base text-black/65">
-                    Converting behavioral requirements into UML sequence
-                    diagrams.
-                  </li>
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Translating real-world system behavior into structured
+    scenarios and interaction flows.
+  </span>
+</li>
 
-                  <li className="py-6 text-base text-black/65">
-                    Understanding how use cases evolve from initial analysis
-                    into refined system models.
-                  </li>
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <li className="py-6 text-base text-black/65">
-                    Applying access-control analysis across actors, system
-                    entities, and operations.
-                  </li>
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Converting behavioral requirements into UML sequence
+    diagrams.
+  </span>
+</li>
 
-                  <li className="py-6 text-base text-black/65">
-                    Connecting behavioral analysis with object design,
-                    architecture, and detailed system documentation.
-                  </li>
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <li className="py-6 text-base text-black/65">
-                    Collaborating within a team while owning defined analysis
-                    and design deliverables.
-                  </li>
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Understanding how use cases evolve from initial analysis
+    into refined system models.
+  </span>
+</li>
+
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Applying access-control analysis across actors, system
+    entities, and operations.
+  </span>
+</li>
+
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Connecting behavioral analysis with object design,
+    architecture, and detailed system documentation.
+  </span>
+</li>
+
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Collaborating within a team while owning defined analysis
+    and design deliverables.
+  </span>
+</li>
                 </ul>
               </div>
             </div>
@@ -585,11 +745,15 @@ export default function SmartSurveillanceSystemPage() {
         <section className="border-t border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-20">
             <div className="max-w-3xl">
-              <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                Project Note
-              </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
 
-              <p className="mt-5 text-base leading-7 text-black/60">
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Project Note
+  </p>
+</div>
+
+              <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                 This was an academic group project focused on systems analysis,
                 modeling, and design documentation. It was not implemented as
                 a production software application.
