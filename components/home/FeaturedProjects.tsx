@@ -7,9 +7,13 @@ export default function FeaturedProjects() {
       <div className="mx-auto max-w-7xl px-6 py-24">
         <div className="flex items-end justify-between gap-6">
           <div>
-            <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-              Selected Work
-            </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Selected Work
+  </p>
+</div>
 
             <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
               Featured Projects
@@ -18,9 +22,14 @@ export default function FeaturedProjects() {
 
           <Link
             href="/projects"
-            className="hidden text-sm font-medium underline underline-offset-4 transition-opacity hover:opacity-60 sm:block"
+            className="group hidden items-center gap-3 text-sm font-medium sm:inline-flex"
           >
-            View All Projects →
+         <span className="border-b border-black/30 pb-1 transition-colors group-hover:border-black">
+  View All Projects
+</span>
+ <span className="transition-transform duration-300 group-hover:translate-x-1">
+  →
+</span>
           </Link>
         </div>
 
@@ -29,20 +38,28 @@ export default function FeaturedProjects() {
             <Link
               key={project.slug}
               href={`/projects/${project.slug}`}
-              className="group grid gap-6 py-9 transition-all hover:px-3 md:grid-cols-[80px_1fr_auto] md:items-center"
-            >
-              <span className="text-sm text-black/35">
-                {project.number}
-              </span>
+className="group grid gap-6 px-0 py-9 transition-all duration-300 hover:bg-black/[0.025] hover:px-5 md:grid-cols-[80px_1fr] md:items-center">
+
+             <div className="flex items-center gap-3">
+  <span className="text-2xl font-semibold tracking-tight text-black/20 transition-colors duration-300 group-hover:text-black/60">
+    {project.number}
+  </span>
+
+  <div className="hidden h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30 md:block" />
+</div>
 
               <div>
                 <p className="text-sm text-black/45">
                   {project.category}
                 </p>
 
-                <h3 className="mt-2 text-xl font-semibold tracking-tight">
-                  {project.title}
-                </h3>
+<h3 className="mt-2 inline-flex items-center gap-2 text-xl font-semibold tracking-tight">
+  <span>{project.title}</span>
+
+  <span className="text-black/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-black/60">
+    →
+  </span>
+</h3>
 
                 <p className="mt-2 max-w-2xl text-sm leading-6 text-black/55">
                   {project.description}
@@ -52,26 +69,28 @@ export default function FeaturedProjects() {
                   {project.technologies.slice(0, 4).map((technology) => (
                     <span
                       key={technology}
-                      className="rounded-full border border-black/10 px-3 py-1 text-xs text-black/45"
+                       className="rounded-full border border-black/10 bg-white/60 px-3 py-1 text-xs text-black/45 transition-colors duration-300 group-hover:border-black/15 group-hover:text-black/60"
                     >
                       {technology}
                     </span>
                   ))}
                 </div>
               </div>
-
-              <span className="text-xl text-black/20 transition-all duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-black/60">
-                ↗
-              </span>
             </Link>
           ))}
         </div>
 
         <Link
           href="/projects"
-          className="mt-8 inline-block text-sm font-medium underline underline-offset-4 sm:hidden"
-        >
-          View All Projects →
+className="group mt-8 inline-flex items-center gap-3 text-sm font-medium sm:hidden"
+>
+  <span className="border-b border-black/30 pb-1 transition-colors group-hover:border-black">
+    View All Projects
+  </span>
+  <span className="transition-transform duration-300 group-hover:translate-x-1">
+ →
+    </span>
+          
         </Link>
       </div>
     </section>

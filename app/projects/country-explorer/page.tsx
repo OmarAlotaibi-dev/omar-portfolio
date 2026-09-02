@@ -12,16 +12,25 @@ export default function CountryExplorerPage() {
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
             <a
-              href="/projects"
-              className="inline-flex items-center text-sm text-black/45 transition-colors hover:text-black"
-            >
-              ← Back to Projects
-            </a>
+  href="/projects"
+  className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-black"
+>
+  <span className="transition-transform duration-300 group-hover:-translate-x-1">
+    ←
+  </span>
 
+  <span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-black/50">
+    Back to Projects
+  </span>
+</a>
             <div className="mt-16 max-w-5xl">
-              <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                Web Development & API Integration
-              </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Web Development & API Integration
+  </p>
+</div>
 
               <h1 className="mt-5 text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
                 Country Explorer
@@ -34,33 +43,33 @@ export default function CountryExplorerPage() {
               </p>
             </div>
 
-            <div className="mt-12 grid gap-8 border-t border-black/10 pt-8 sm:grid-cols-3">
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
+            <div className="mt-12 grid gap-8 border-y border-black/10 py-7 sm:grid-cols-3 sm:divide-x sm:divide-black/10">
+              <div className="sm:pr-8">
+                <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
                   Project
                 </p>
 
-                <p className="mt-2 text-sm font-medium">
+                <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
                   IBM SkillsBuild
                 </p>
               </div>
 
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
+              <div className="sm:px-8">
+                <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
                   Type
                 </p>
 
-                <p className="mt-2 text-sm font-medium">
+                <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
                   Two-Part Web Development Project
                 </p>
               </div>
 
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
+              <div className="sm:pl-8">
+                <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
                   Status
                 </p>
 
-                <p className="mt-2 text-sm font-medium">
+                <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
                   Completed
                 </p>
               </div>
@@ -70,13 +79,13 @@ export default function CountryExplorerPage() {
 {/* Project Preview */}
 <section className="border-t border-black/10">
   <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
-    <div className="overflow-hidden rounded-2xl border border-black/10 bg-black/[0.02]">
+    <div className="group overflow-hidden rounded-2xl border border-black/10 bg-black/[0.02] p-2 transition-all duration-300 hover:border-black/20">
       <Image
         src="/projects/country-explorer.png"
         alt="Country Explorer application interface"
         width={1702}
         height={928}
-        className="h-auto w-full"
+        className="h-auto w-full rounded-xl transition-transform duration-500 group-hover:scale-[1.01]"
         priority
       />
     </div>
@@ -88,17 +97,28 @@ export default function CountryExplorerPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Overview
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Overview
+  </p>
+</div>
               </div>
 
               <div>
                 <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
                   From front-end fundamentals to API-driven data.
                 </h2>
+                <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>01 Front-End</span>
 
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+  <div className="h-px w-8 bg-black/15" />
+
+  <span>02 API Integration</span>
+</div>
+
+                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   Country Explorer was completed in two parts as part of IBM
                   SkillsBuild web development work. The first part focused on
                   front-end development and working with country information
@@ -121,35 +141,55 @@ export default function CountryExplorerPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Project Structure
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Project Structure
+  </p>
+</div>
               </div>
 
               <div className="space-y-12">
-                <div className="border-t border-black/10 pt-6">
-                  <p className="text-sm text-black/40">
-                    Part 01
-                  </p>
+<div className="group border-t border-black/10 py-7">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      01
+    </span>
 
-                  <h2 className="mt-2 text-2xl font-semibold tracking-tight">
-                    Front-End Development
-                  </h2>
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
 
-                  <p className="mt-4 max-w-3xl text-base leading-7 text-black/60">
-                    Built the browser-based Country Explorer interface using
-                    HTML, CSS, and JavaScript. The project included working with
-                    country data, dynamic rendering, DOM manipulation,
-                    filtering, and navigation between country views.
-                  </p>
-                </div>
+    <span className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
+      Part
+    </span>
+  </div>
 
-                <div className="border-t border-black/10 pt-6">
-                  <p className="text-sm text-black/40">
-                    Part 02
-                  </p>
+  <h2 className="mt-3 text-2xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Front-End Development
+  </h2>
 
-                  <h2 className="mt-2 text-2xl font-semibold tracking-tight">
+  <p className="mt-4 max-w-3xl text-base leading-7 text-black/60">
+    Built the browser-based Country Explorer interface using
+    HTML, CSS, and JavaScript. The project included working with
+    country data, dynamic rendering, DOM manipulation,
+    filtering, and navigation between country views.
+  </p>
+</div>
+
+<div className="group border-t border-black/10 py-7">
+  <div className="flex items-center gap-3">
+    <span className="font-mono text-xs tracking-wide text-black/35">
+      02
+    </span>
+
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+
+    <span className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
+      Part
+    </span>
+  </div>
+
+                  <h2 className="mt-3 text-2xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
                     REST API Integration
                   </h2>
 
@@ -170,12 +210,16 @@ export default function CountryExplorerPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Technologies
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Technologies
+  </p>
+</div>
               </div>
 
-              <div className="flex flex-wrap gap-3">
+              <div className="grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
                 {[
                   "JavaScript",
                   "HTML",
@@ -184,12 +228,14 @@ export default function CountryExplorerPage() {
                   "JSON",
                   "Node.js",
                 ].map((technology) => (
-                  <span
-                    key={technology}
-                    className="rounded-full border border-black/10 px-4 py-2 text-sm text-black/60"
-                  >
-                    {technology}
-                  </span>
+<span
+  key={technology}
+  className="group flex items-center gap-3 border-t border-black/10 px-1 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
+>
+  <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-black/35" />
+
+  {technology}
+</span>
                 ))}
               </div>
             </div>
@@ -201,16 +247,24 @@ export default function CountryExplorerPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  What I Worked On
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    What I Worked On
+  </p>
+</div>
               </div>
 
               <div className="grid gap-8 sm:grid-cols-2">
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    Dynamic Rendering
-                  </h3>
+                <div className="group border-t border-black/10 py-5">
+<div className="flex items-center gap-3">
+  <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+
+  <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+    Dynamic Rendering
+  </h3>
+</div>
 
                   <p className="mt-3 text-sm leading-6 text-black/55">
                     Used JavaScript to dynamically render country information
@@ -218,38 +272,50 @@ export default function CountryExplorerPage() {
                   </p>
                 </div>
 
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    Search & Filtering
-                  </h3>
+<div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Implemented functionality for searching and filtering
-                    country information within the application.
-                  </p>
-                </div>
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      Search & Filtering
+    </h3>
+  </div>
 
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    REST API
-                  </h3>
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Implemented functionality for searching and filtering
+    country information within the application.
+  </p>
+</div>
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Retrieved country data through a REST API and handled the
-                    returned JSON data in the application.
-                  </p>
-                </div>
+<div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
 
-                <div className="border-t border-black/10 pt-5">
-                  <h3 className="text-lg font-semibold tracking-tight">
-                    Data Presentation
-                  </h3>
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      REST API
+    </h3>
+  </div>
 
-                  <p className="mt-3 text-sm leading-6 text-black/55">
-                    Structured country information into searchable,
-                    paginated, and detailed user-facing views.
-                  </p>
-                </div>
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Retrieved country data through a REST API and handled the
+    returned JSON data in the application.
+  </p>
+</div>
+
+                <div className="group border-t border-black/10 py-5">
+  <div className="flex items-center gap-3">
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+
+    <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
+      Data Presentation
+    </h3>
+  </div>
+
+  <p className="mt-3 text-sm leading-6 text-black/55">
+    Structured country information into searchable,
+    paginated, and detailed user-facing views.
+  </p>
+</div>
               </div>
             </div>
           </div>
@@ -260,31 +326,51 @@ export default function CountryExplorerPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Key Takeaways
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Key Takeaways
+  </p>
+</div>
               </div>
 
               <div>
                 <ul className="divide-y divide-black/10 border-y border-black/10">
-                  <li className="py-6 text-base text-black/65">
-                    Building browser-based interfaces with JavaScript and DOM
-                    manipulation.
-                  </li>
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <li className="py-6 text-base text-black/65">
-                    Working with external REST APIs and JSON data.
-                  </li>
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Building browser-based interfaces with JavaScript and DOM
+    manipulation.
+  </span>
+</li>
 
-                  <li className="py-6 text-base text-black/65">
-                    Implementing search, filtering, pagination, and detailed
-                    data views.
-                  </li>
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <li className="py-6 text-base text-black/65">
-                    Extending a front-end project from local data to
-                    API-driven data.
-                  </li>
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Working with external REST APIs and JSON data.
+  </span>
+</li>
+
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Implementing search, filtering, pagination, and detailed
+    data views.
+  </span>
+</li>
+
+<li className="group flex items-start gap-4 py-6 text-base text-black/65">
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
+    Extending a front-end project from local data to
+    API-driven data.
+  </span>
+</li>
                 </ul>
               </div>
             </div>
@@ -294,28 +380,40 @@ export default function CountryExplorerPage() {
         {/* Links */}
         <section className="border-t border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24">
-            <p className="mb-6 text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-              Project Repositories
-            </p>
+<div className="mb-8 flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
 
-            <div className="flex flex-wrap gap-3">
-              <a
-                href="https://github.com/OmarAlotaibi-dev/COUNTRY_EXPLORER"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-black/85"
-              >
-                Front-End Repository ↗
-              </a>
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Project Repositories
+  </p>
+</div>
 
-              <a
-                href="https://github.com/OmarAlotaibi-dev/country-explorer-rest-API"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full border border-black/20 px-6 py-3 text-sm font-medium transition-all hover:-translate-y-0.5 hover:border-black"
-              >
-                REST API Repository ↗
-              </a>
+          <div className="grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+<a
+  href="https://github.com/OmarAlotaibi-dev/COUNTRY_EXPLORER"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group inline-flex items-center justify-between gap-6 bg-black px-6 py-4 text-sm font-medium text-white transition-all duration-300 hover:bg-black/85"
+>
+  <span>Front-End Repository</span>
+
+  <span className="text-white/60 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-1">
+    ↗
+  </span>
+</a>
+
+<a
+  href="https://github.com/OmarAlotaibi-dev/country-explorer-rest-API"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group inline-flex items-center justify-between gap-6 border border-black/15 px-6 py-4 text-sm font-medium text-black transition-all duration-300 hover:border-black/40 hover:bg-black/[0.02]"
+>
+  <span>REST API Repository</span>
+
+  <span className="text-black/35 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-1">
+    ↗
+  </span>
+</a>
             </div>
           </div>
         </section>

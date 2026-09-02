@@ -11,17 +11,27 @@ export default function TechSupportProPage() {
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
-            <a
-              href="/projects"
-              className="inline-flex items-center text-sm text-black/45 transition-colors hover:text-black"
-            >
-              ← Back to Projects
-            </a>
+<a
+  href="/projects"
+  className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-black"
+>
+  <span className="transition-transform duration-300 group-hover:-translate-x-1">
+    ←
+  </span>
+
+  <span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-black/50">
+    Back to Projects
+  </span>
+</a>
 
             <div className="mt-16 max-w-5xl">
-              <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                Full-Stack Web Development
-              </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Full-Stack Web Development
+  </p>
+</div>
 
               <h1 className="mt-5 text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
                 Tech Support Pro
@@ -34,49 +44,52 @@ export default function TechSupportProPage() {
               </p>
             </div>
 
-            <div className="mt-12 grid gap-8 border-t border-black/10 pt-8 sm:grid-cols-3">
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
-                  Type
-                </p>
+            <div className="mt-12 grid gap-8 border-y border-black/10 py-7 sm:grid-cols-3 sm:divide-x sm:divide-black/10">
+<div className="sm:pr-8">
+  <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+    Type
+  </p>
 
-                <p className="mt-2 text-sm font-medium">
-                  Full-Stack Web Application
-                </p>
-              </div>
+  <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
+    Full-Stack Web Application
+  </p>
+</div>
 
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
-                  Architecture
-                </p>
+<div className="sm:px-8">
+  <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+    Architecture
+  </p>
 
-                <p className="mt-2 text-sm font-medium">
-                  PHP + MySQL
-                </p>
-              </div>
+  <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
+    PHP + MySQL
+  </p>
+</div>
 
-              <div>
-                <p className="text-xs uppercase tracking-[0.15em] text-black/40">
-                  Status
-                </p>
+              <div className="sm:pl-8">
+  <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+    Status
+  </p>
 
-                <p className="mt-2 text-sm font-medium">
-                  Completed
-                </p>
-              </div>
+  <p className="mt-3 text-sm font-medium tracking-tight text-black/75">
+    Completed
+  </p>
+</div>
             </div>
           </div>
         </section>
         {/* Project Preview */}
 <section className="border-t border-black/10">
+
   <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
-    <div className="overflow-hidden rounded-2xl border border-black/10 bg-black/[0.02]">
+
+    <div className="group overflow-hidden rounded-2xl border border-black/10 bg-black/[0.02] p-2 transition-all duration-300 hover:border-black/20">
+
       <Image
         src="/projects/tech-support-pro.png"
         alt="Tech Support Pro ticket management application interface"
         width={1700}
         height={950}
-        className="h-auto w-full"
+        className="h-auto w-full rounded-xl transition-transform duration-500 group-hover:scale-[1.01]"
         priority
       />
     </div>
@@ -88,17 +101,32 @@ export default function TechSupportProPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  Overview
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    Overview
+  </p>
+</div>
               </div>
 
               <div>
                 <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
                   Managing support requests through a structured web system.
                 </h2>
+                <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
+  <span>Interface</span>
 
-                <p className="mt-6 max-w-3xl text-base leading-7 text-black/60 sm:text-lg">
+  <div className="h-px w-8 bg-black/15" />
+
+  <span>PHP</span>
+
+  <div className="h-px w-8 bg-black/15" />
+
+  <span>MySQL</span>
+</div>
+
+                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   Tech Support Pro is a full-stack customer support application
                   designed to manage technical support requests through a
                   ticket-based workflow.
@@ -120,43 +148,55 @@ export default function TechSupportProPage() {
           <div className="mx-auto max-w-7xl px-6 py-24">
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
-                <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
-                  System Roles
-                </p>
+<div className="flex items-center gap-3">
+  <div className="h-px w-8 bg-black/20" />
+
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+    System Roles
+  </p>
+</div>
               </div>
 
               <div className="grid gap-8 sm:grid-cols-2">
-                <div className="border-t border-black/10 pt-6">
-                  <p className="text-sm text-black/40">
-                    User
-                  </p>
+<div className="group border-t border-black/10 py-7">
+  <div className="flex items-center gap-3">
+    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <h2 className="mt-2 text-2xl font-semibold tracking-tight">
-                    Customer Dashboard
-                  </h2>
+    <span className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
+      User
+    </span>
+  </div>
 
-                  <p className="mt-4 text-sm leading-6 text-black/55">
-                    Users can create an account, sign in, submit support
-                    tickets, view their requests, and follow ticket status
-                    changes.
-                  </p>
-                </div>
+  <h2 className="mt-3 text-2xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Customer Dashboard
+  </h2>
 
-                <div className="border-t border-black/10 pt-6">
-                  <p className="text-sm text-black/40">
-                    Administrator
-                  </p>
+  <p className="mt-4 text-sm leading-6 text-black/55">
+    Users can create an account, sign in, submit support
+    tickets, view their requests, and follow ticket status
+    changes.
+  </p>
+</div>
 
-                  <h2 className="mt-2 text-2xl font-semibold tracking-tight">
-                    Admin Dashboard
-                  </h2>
+                <div className="group border-t border-black/10 py-7">
+  <div className="flex items-center gap-3">
+    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
 
-                  <p className="mt-4 text-sm leading-6 text-black/55">
-                    Administrators can review submitted tickets, manage ticket
-                    status, respond to support requests, and access system
-                    management functions.
-                  </p>
-                </div>
+    <span className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
+      Administrator
+    </span>
+  </div>
+
+  <h2 className="mt-3 text-2xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
+    Admin Dashboard
+  </h2>
+
+  <p className="mt-4 text-sm leading-6 text-black/55">
+    Administrators can review submitted tickets, manage ticket
+    status, respond to support requests, and access system
+    management functions.
+  </p>
+</div>
               </div>
             </div>
           </div>
