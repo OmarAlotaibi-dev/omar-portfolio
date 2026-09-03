@@ -28,7 +28,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Omar Alotaibi" }],
   creator: "Omar Alotaibi",
-
+  verification: {
+    google: "GEqwknKP51VKQP1EfoAXPzcd9t9S4Vuc7ToWZyWuCtU",
+  },
 openGraph: {
   type: "website",
   locale: "en_US",
