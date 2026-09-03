@@ -33,12 +33,12 @@ export default function ContactPage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]">
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Contact
@@ -55,9 +55,9 @@ export default function ContactPage() {
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Connect</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Collaborate</span>
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Opportunities</span>
 </div>
           </div>
@@ -69,7 +69,7 @@ export default function ContactPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Get in Touch
@@ -82,7 +82,7 @@ export default function ContactPage() {
                   The easiest way to reach me is by email.
                 </h2>
 
-                <p className="mt-8 max-w-2xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
+                <p className="mt-8 max-w-2xl border-l border-[#2563EB]/35 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   For professional opportunities, technical discussions,
                   collaborations, or conversations related to my work and
                   background, feel free to get in touch.
@@ -91,11 +91,11 @@ export default function ContactPage() {
                 <div className="mt-10">
 <a
   href="mailto:Alotaibiomar7@outlook.sa"
-  className="group inline-flex items-center gap-3 bg-black px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-black/85"
+  className="group inline-flex items-center gap-3 bg-[#111827] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2563EB]"
 >
   Send Email
 
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </a>
@@ -111,7 +111,7 @@ export default function ContactPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Location
@@ -121,7 +121,7 @@ export default function ContactPage() {
 
               <div>
 <div className="group flex items-center gap-4">
-  <div className="h-2 w-2 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+<div className="h-2 w-2 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="text-2xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1 sm:text-3xl">
     Riyadh, Saudi Arabia
@@ -138,7 +138,7 @@ export default function ContactPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Professional Profiles
@@ -167,7 +167,7 @@ export default function ContactPage() {
     {String(profiles.indexOf(profile) + 1).padStart(2, "0")}
   </span>
 
-  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+ <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 </div>
                    <p className="text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
                       {profile.name}
@@ -179,7 +179,7 @@ export default function ContactPage() {
 
 <span className="inline-flex items-center gap-2 text-sm font-medium text-black/60">
   View
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+  <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </span>
@@ -196,7 +196,7 @@ export default function ContactPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Professional Interests
@@ -216,7 +216,7 @@ export default function ContactPage() {
     className="group/interest border-t border-black/10 py-5"
   >
     <div className="flex items-center gap-3">
-      <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover/interest:w-8 group-hover/interest:bg-black/35" />
+     <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover/interest:w-8 group-hover/interest:bg-[#2563EB]/70" />
 
       <p className="text-lg font-medium tracking-tight transition-transform duration-300 group-hover/interest:translate-x-1">
         {interest}
@@ -233,7 +233,7 @@ export default function ContactPage() {
         {/* Resume CTA */}
         <section className="border-t border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24">
-            <div className="relative overflow-hidden bg-black px-8 py-12 text-white sm:px-12 sm:py-16">
+            <div className="relative overflow-hidden bg-[#111827] px-8 py-12 text-white sm:px-12 sm:py-16">
               <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full border border-white/10" />
 <div className="pointer-events-none absolute -bottom-32 right-24 h-72 w-72 rounded-full border border-white/[0.06]" />
 <div className="relative z-10">
@@ -241,7 +241,7 @@ export default function ContactPage() {
   
 
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-white/25" />
+ <div className="h-px w-8 bg-[#60A5FA]/80" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/50">
     Resume
@@ -260,12 +260,11 @@ export default function ContactPage() {
 
 <div className="mt-8 flex flex-wrap gap-3">
   <a
-    href="/resume"
-    className="group inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/90"
+    href="/resume"className="group inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-medium text-[#111827] transition-all duration-300 hover:-translate-y-0.5 hover:text-[#2563EB]"
+    
   >
     View Resume
-
-    <span className="transition-transform duration-300 group-hover:translate-x-1">
+<span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
       →
     </span>
   </a>
@@ -273,7 +272,7 @@ export default function ContactPage() {
               <a
   href="/resume.pdf"
   download
-  className="group inline-flex items-center gap-3 border border-black/20 px-6 py-3 text-sm font-medium transition-all duration-300 hover:-translate-y-0.5 hover:border-black"
+ className="group inline-flex items-center gap-3 border border-white/20 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-[#60A5FA]/70 hover:text-[#60A5FA]"
 >
   Download Resume
 

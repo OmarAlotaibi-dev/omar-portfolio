@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-black/10">
+   <footer className="border-t border-black/10 bg-[#F7F8FA] text-[#111827]">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-10 sm:flex-row sm:items-center sm:justify-between">
         {/* Identity */}
         <div>
           <Link
             href="/"
-            className="font-semibold tracking-tight transition-opacity hover:opacity-60"
+            className="font-semibold tracking-tight transition-colors hover:text-[#2563EB]"
           >
             Omar Alotaibi
           </Link>
@@ -28,7 +28,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/omar-alotaibi11071998/"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
+            className="transition-colors hover:text-[#2563EB]"
           >
             LinkedIn
           </a>
@@ -37,21 +37,21 @@ export default function Footer() {
             href="https://github.com/OmarAlotaibi-dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
+            className="transition-colors hover:text-[#2563EB]"
           >
             GitHub
           </a>
 
           <Link
             href="/resume"
-            className="transition-colors hover:text-black"
+           className="transition-colors hover:text-[#2563EB]"
           >
             Resume
           </Link>
 
           <Link
             href="/contact"
-            className="transition-colors hover:text-black"
+          className="transition-colors hover:text-[#2563EB]"
           >
             Contact
           </Link>

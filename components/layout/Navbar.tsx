@@ -18,7 +18,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-black/10 bg-white/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-black/10 bg-[#F7F8FA]/90 text-[#111827] backdrop-blur-md">
       <nav className="mx-auto max-w-7xl px-6">
         <div className="flex h-20 items-center justify-between">
           {/* Brand */}
@@ -36,7 +36,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm text-black/55 transition-colors hover:text-black"
+                className="text-sm text-black/55 transition-colors hover:text-[#2563EB]"
               >
                 {item.name}
               </Link>
@@ -48,7 +48,7 @@ export default function Navbar() {
             href="/resume.pdf"
             target="_blank"
             rel="noreferrer"
-            className="hidden shrink-0 rounded-full border border-black px-4 py-2 text-sm font-medium transition-all hover:bg-black hover:text-white md:inline-flex"
+ className="hidden shrink-0 border border-[#111827]/20 px-4 py-2 text-sm font-medium text-[#111827] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#2563EB] hover:text-[#2563EB] md:inline-flex"
           >
             Resume PDF
           </a>
@@ -90,7 +90,7 @@ export default function Navbar() {
                   key={item.name}
                   href={item.href}
                   onClick={() => setMenuOpen(false)}
-                  className="border-b border-black/10 py-4 text-base font-medium text-black/70 transition-colors last:border-b-0 hover:text-black"
+className="border-b border-black/10 py-4 text-base font-medium text-black/70 transition-colors last:border-b-0 hover:text-[#2563EB]"
                 >
                   {item.name}
                 </Link>
@@ -102,7 +102,7 @@ export default function Navbar() {
                 href="/resume.pdf"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex rounded-full bg-black px-5 py-2.5 text-sm font-medium text-white"
+className="inline-flex bg-[#111827] px-5 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:bg-[#2563EB]"
               >
                 Resume PDF
               </a>

@@ -8,7 +8,7 @@ export default function ResearchPreview() {
         <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
           <div>
      <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Research
@@ -32,7 +32,7 @@ export default function ResearchPreview() {
     Explore Research
   </span>
 
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+ <span className="text-black/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </Link>
@@ -49,7 +49,7 @@ export default function ResearchPreview() {
     {research.number}
   </span>
 
-  <div className="mt-2 h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-9 group-hover:bg-black/25" />
+  <div className="mt-2 h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-9 group-hover:bg-[#2563EB]/70" />
 </div>
 
                 <div>

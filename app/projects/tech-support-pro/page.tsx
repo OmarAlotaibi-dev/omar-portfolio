@@ -7,26 +7,26 @@ export default function TechSupportProPage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]">
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
 <a
   href="/projects"
-  className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-black"
+  className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-[#2563EB]"
 >
   <span className="transition-transform duration-300 group-hover:-translate-x-1">
     ←
   </span>
 
-  <span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-black/50">
+<span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-[#2563EB]/60">
     Back to Projects
   </span>
 </a>
 
             <div className="mt-16 max-w-5xl">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Full-Stack Web Development
@@ -102,7 +102,7 @@ export default function TechSupportProPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Overview
@@ -117,11 +117,11 @@ export default function TechSupportProPage() {
                 <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Interface</span>
 
-  <div className="h-px w-8 bg-black/15" />
+<div className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>PHP</span>
 
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>MySQL</span>
 </div>
@@ -149,7 +149,7 @@ export default function TechSupportProPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     System Roles
@@ -160,7 +160,7 @@ export default function TechSupportProPage() {
               <div className="grid gap-8 sm:grid-cols-2">
 <div className="group border-t border-black/10 py-7">
   <div className="flex items-center gap-3">
-    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
     <span className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
       User
@@ -180,7 +180,7 @@ export default function TechSupportProPage() {
 
                 <div className="group border-t border-black/10 py-7">
   <div className="flex items-center gap-3">
-    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
     <span className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
       Administrator
@@ -208,7 +208,7 @@ export default function TechSupportProPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Ticket Workflow
@@ -258,7 +258,7 @@ export default function TechSupportProPage() {
     {step.number}
   </span>
 
-  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 </div>
 
 <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -282,7 +282,7 @@ export default function TechSupportProPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     What I Built
@@ -293,7 +293,7 @@ export default function TechSupportProPage() {
               <div className="grid gap-8 sm:grid-cols-2">
                 <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+   <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       Authentication
@@ -308,7 +308,7 @@ export default function TechSupportProPage() {
 
 <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+   <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       Role-Based Access
@@ -323,7 +323,7 @@ export default function TechSupportProPage() {
 
                 <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       Ticket Management
@@ -338,7 +338,7 @@ export default function TechSupportProPage() {
 
                <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       Database Integration
@@ -353,7 +353,7 @@ export default function TechSupportProPage() {
 
                 <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+   <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       User Dashboard
@@ -368,7 +368,7 @@ export default function TechSupportProPage() {
 
                 <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+  <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       Admin Dashboard
@@ -391,7 +391,7 @@ export default function TechSupportProPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Database
@@ -406,15 +406,15 @@ export default function TechSupportProPage() {
                 <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Users</span>
 
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>Tickets</span>
 
-  <div className="h-px w-8 bg-black/15" />
+<div className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>Roles</span>
 
-  <div className="h-px w-8 bg-black/15" />
+<div className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>Status</span>
 </div>
@@ -442,7 +442,7 @@ export default function TechSupportProPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Technologies
@@ -465,7 +465,7 @@ export default function TechSupportProPage() {
   key={technology}
   className="group flex items-center gap-3 border-t border-black/10 px-1 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
 >
-  <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-black/35" />
+<span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-[#2563EB]/70" />
 
   {technology}
 </span>
@@ -481,7 +481,7 @@ export default function TechSupportProPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Key Takeaways
@@ -492,7 +492,7 @@ export default function TechSupportProPage() {
               <div>
                 <ul className="divide-y divide-black/10 border-y border-black/10">
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+<span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Connecting front-end interfaces with PHP application logic
@@ -501,7 +501,7 @@ export default function TechSupportProPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Implementing authentication, sessions, and role-based
@@ -510,7 +510,7 @@ export default function TechSupportProPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Designing a ticket workflow with multiple application
@@ -519,7 +519,7 @@ export default function TechSupportProPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+<span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Building separate user and administrator experiences within
@@ -536,7 +536,7 @@ export default function TechSupportProPage() {
         <section className="border-t border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24">
 <div className="mb-8 flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Project Repository
@@ -548,7 +548,7 @@ export default function TechSupportProPage() {
   href="https://github.com/OmarAlotaibi-dev/tech-support-pro"
   target="_blank"
   rel="noopener noreferrer"
-  className="group inline-flex items-center justify-between gap-8 bg-black px-6 py-4 text-sm font-medium text-white transition-all duration-300 hover:bg-black/85"
+className="group inline-flex items-center justify-between gap-8 bg-[#111827] px-6 py-4 text-sm font-medium text-white transition-all duration-300 hover:bg-[#2563EB]"
 >
   <span>View on GitHub</span>
 

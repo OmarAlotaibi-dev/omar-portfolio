@@ -8,7 +8,7 @@ export default function TechnicalSkills() {
         <div className="mb-12">
 
   <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+<div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Technical Skills
@@ -28,7 +28,7 @@ export default function TechnicalSkills() {
   className="group grid gap-5 px-0 py-8 transition-all duration-300 hover:bg-black/[0.025] hover:px-5 md:grid-cols-[0.7fr_1.3fr] md:gap-10"
 >
 <div className="flex items-start gap-3">
-  <div className="mt-2 h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  <div className="mt-2 h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 {/*group of skills title*/}
   <h3 className="text-base font-semibold tracking-tight">
     {group.title}
@@ -57,7 +57,7 @@ export default function TechnicalSkills() {
     View Technical Skills
   </span>
 
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+  <span className="text-black/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </Link>

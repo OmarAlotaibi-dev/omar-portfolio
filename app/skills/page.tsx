@@ -153,12 +153,12 @@ export default function SkillsPage() {
     <>
       <Navbar />
 
-      <main>
+ <main className="bg-[#F7F8FA] text-[#111827]">
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Technical Skills
@@ -176,11 +176,11 @@ export default function SkillsPage() {
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Systems</span>
-  <div className="h-px w-8 bg-black/15" />
+<div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Software</span>
-  <div className="h-px w-8 bg-black/15" />
+<div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Data</span>
-  <div className="h-px w-8 bg-black/15" />
+<div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Infrastructure</span>
 </div>
           </div>
@@ -200,7 +200,7 @@ export default function SkillsPage() {
     {String(index + 1).padStart(2, "0")}
   </span>
 
-  <div className="h-px w-8 bg-black/10 transition-all duration-300 group-hover:w-12 group-hover:bg-black/30" />
+ <div className="h-px w-8 bg-black/10 transition-all duration-300 group-hover:w-12 group-hover:bg-[#2563EB]/70" />
 </div>
 
 <h2 className="text-2xl font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -213,7 +213,7 @@ export default function SkillsPage() {
       key={skill}
       className="flex items-center gap-3 border-t border-black/10 py-3"
     >
-      <span className="h-1 w-1 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/45" />
+      <span className="h-1 w-1 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
       <span className="text-sm text-black/60">
         {skill}
@@ -233,7 +233,7 @@ export default function SkillsPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Certifications & Credentials
@@ -248,9 +248,9 @@ export default function SkillsPage() {
                 </h2>
                 <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Cybersecurity</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Cloud</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Software Development</span>
 </div>
 
@@ -268,7 +268,7 @@ export default function SkillsPage() {
         {String(index + 1).padStart(2, "0")}
       </span>
 
-      <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover/credential:w-10 group-hover/credential:bg-black/30" />
+     <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover/credential:w-10 group-hover/credential:bg-[#2563EB]/70" />
 
       <h3 className="text-xl font-semibold tracking-tight transition-transform duration-300 group-hover/credential:translate-x-1">
         {credential.organization}
@@ -281,7 +281,7 @@ export default function SkillsPage() {
     key={item}
     className="group/item flex items-center gap-3 py-4"
   >
-    <span className="h-1 w-1 rounded-full bg-black/20 transition-colors duration-300 group-hover/item:bg-black/60" />
+    <span className="h-1 w-1 rounded-full bg-black/20 transition-colors duration-300 group-hover/item:bg-[#2563EB]" />
 
     <span className="text-sm leading-6 text-black/60 transition-transform duration-300 group-hover/item:translate-x-1 group-hover/item:text-black/80">
       {item}
@@ -298,7 +298,7 @@ export default function SkillsPage() {
                     href="https://www.credly.com/users/omar_alotaibi/badges/credly"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group inline-flex items-center gap-3 bg-black px-5 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-black/85"
+                    className="group inline-flex items-center gap-3 bg-[#111827] px-5 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2563EB]"
                   >
                     View Verified Credentials on Credly
 
@@ -319,7 +319,7 @@ export default function SkillsPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Specialized Training
@@ -346,7 +346,7 @@ export default function SkillsPage() {
 >
                       <div>
 <div className="flex items-center gap-3">
-  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="text-xs font-medium uppercase tracking-[0.15em] text-black/40">
     {item.provider}
@@ -358,7 +358,7 @@ export default function SkillsPage() {
                         </h3>
                       </div>
 
-<p className="border-l border-black/10 pl-5 text-sm leading-6 text-black/55 transition-colors duration-300 group-hover:border-black/25 group-hover:text-black/65">
+<p className="border-l border-black/10 pl-5 text-sm leading-6 text-black/55 transition-colors duration-300 group-hover:border-[#2563EB]/50 group-hover:text-black/65">
   {item.description}
 </p>
                     </article>
@@ -375,7 +375,7 @@ export default function SkillsPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Technical Approach
@@ -389,7 +389,7 @@ export default function SkillsPage() {
   systems, software, databases, and infrastructure connect.
 </p>
 
-                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
+                <p className="mt-8 max-w-3xl border-l border-[#2563EB]/35 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   My background spans multiple layers of information
                   technology. Depending on the project, this can involve
                   analyzing requirements, modeling a system, working with

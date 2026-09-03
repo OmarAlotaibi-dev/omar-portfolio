@@ -9,7 +9,7 @@ export default function ExperienceSnapshot() {
 
           <div>
             <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Experience
@@ -28,7 +28,7 @@ export default function ExperienceSnapshot() {
     View Full Experience
   </span>
 
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+  <span className="text-black/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </Link>
@@ -42,7 +42,7 @@ export default function ExperienceSnapshot() {
 >
   <div className="absolute bottom-0 left-[3px] top-[3.15rem] hidden w-px bg-black/10 md:block" />
                <div className="flex items-start gap-3">
-  <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full border border-black/30 bg-white transition-all duration-300 group-hover:bg-black" />
+  <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full border border-black/30 bg-white transition-all duration-300 group-hover:border-[#2563EB] group-hover:bg-[#2563EB]" />
 
   <p className="text-sm font-medium text-black/40 transition-colors duration-300 group-hover:text-black/65">
     {item.period}

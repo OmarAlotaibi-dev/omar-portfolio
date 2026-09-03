@@ -62,12 +62,12 @@ export default function ResumePage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]">
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Resume & Career
@@ -85,9 +85,9 @@ export default function ResumePage() {
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Business</span>
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Systems</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Technology</span>
 </div>
 
@@ -96,7 +96,7 @@ export default function ResumePage() {
   href="/resume.pdf"
   target="_blank"
   rel="noreferrer"
-  className="group inline-flex items-center gap-3 bg-black px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-black/85"
+  className="group inline-flex items-center gap-3 bg-[#111827] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2563EB]"
 >
   View Resume PDF
 
@@ -108,7 +108,7 @@ export default function ResumePage() {
               <a
   href="/resume.pdf"
   download
-  className="group inline-flex items-center gap-3 border border-black/20 px-6 py-3 text-sm font-medium transition-all duration-300 hover:-translate-y-0.5 hover:border-black"
+  className="group inline-flex items-center gap-3 border border-[#111827]/20 px-6 py-3 text-sm font-medium text-[#111827] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#2563EB] hover:text-[#2563EB]"
 >
   Download Resume
 
@@ -126,7 +126,7 @@ export default function ResumePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Career Profile
@@ -140,7 +140,7 @@ export default function ResumePage() {
                   and technology.
                 </h2>
 
-               <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
+               <p className="mt-8 max-w-3xl border-l border-[#2563EB]/35 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   My background combines Management Information Systems with
                   experience in IT operations, data and information
                   management, and academic work across systems analysis,
@@ -165,7 +165,7 @@ export default function ResumePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Education
@@ -181,7 +181,7 @@ export default function ResumePage() {
 >
                     <div>
 <div className="flex items-center gap-3">
-  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="text-xs font-medium uppercase tracking-[0.15em] text-black/40">
     {item.degree}
@@ -222,7 +222,7 @@ export default function ResumePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Professional Experience
@@ -259,7 +259,7 @@ export default function ResumePage() {
                         {item.period}
                       </p>
                     </div>
-<p className="mt-6 max-w-3xl border-l border-black/15 pl-5 text-sm leading-7 text-black/60">
+<p className="mt-6 max-w-3xl border-l border-[#2563EB]/35 pl-5 text-sm leading-7 text-black/60">
   {item.description}
 </p>
                   </article>
@@ -272,7 +272,7 @@ export default function ResumePage() {
   >
     View Full Experience
 
-    <span className="transition-transform duration-300 group-hover:translate-x-1">
+   <span className="text-black/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
       →
     </span>
   </a>
@@ -288,7 +288,7 @@ export default function ResumePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Areas of Focus
@@ -308,7 +308,7 @@ export default function ResumePage() {
     className="group/focus border-t border-black/10 py-5"
   >
     <div className="flex items-center gap-3">
-      <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover/focus:w-8 group-hover/focus:bg-black/35" />
+<div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover/focus:w-8 group-hover/focus:bg-[#2563EB]/70" />
 
       <p className="text-lg font-medium tracking-tight transition-transform duration-300 group-hover/focus:translate-x-1">
         {item}
@@ -328,7 +328,7 @@ export default function ResumePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Selected Work
@@ -357,7 +357,7 @@ export default function ResumePage() {
     01
   </span>
 
-  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+ <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 </div>
 <p className="mt-5 text-xs font-medium uppercase tracking-[0.16em] text-black/40">
   Build
@@ -372,7 +372,7 @@ export default function ResumePage() {
                       analysis work.
                     </p>
 
-                    <p className="mt-6 text-sm font-medium transition-transform group-hover:translate-x-1">
+                    <p className="mt-6 text-sm font-medium transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
                       Explore →
                     </p>
                   </a>
@@ -386,7 +386,7 @@ export default function ResumePage() {
       02
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 <p className="mt-5 text-xs font-medium uppercase tracking-[0.16em] text-black/40">
   Research
@@ -401,7 +401,7 @@ export default function ResumePage() {
                       emerging technology.
                     </p>
 
-                    <p className="mt-6 text-sm font-medium transition-transform group-hover:translate-x-1">
+                    <p className="mt-6 text-sm font-medium transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
                       Explore →
                     </p>
                   </a>
@@ -415,7 +415,7 @@ export default function ResumePage() {
       03
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+   <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 <p className="mt-5 text-xs font-medium uppercase tracking-[0.16em] text-black/40">
   Technical
@@ -433,7 +433,7 @@ export default function ResumePage() {
 <div className="mt-6 inline-flex items-center gap-2 text-sm font-medium">
   <span>Explore</span>
 
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+  <span className="text-black/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </div>
@@ -450,7 +450,7 @@ export default function ResumePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Beyond the Resume
@@ -466,7 +466,7 @@ export default function ResumePage() {
   </span>
 </h2>
 
-<p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
+<p className="mt-8 max-w-3xl border-l border-[#2563EB]/35 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   A resume is intentionally concise. This portfolio expands on
                   selected projects, research, technical capabilities, and
                   professional experience without turning the resume itself
@@ -480,13 +480,13 @@ export default function ResumePage() {
         {/* Contact */}
         <section className="border-t border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24">
-            <div className="relative overflow-hidden bg-black px-8 py-12 text-white sm:px-12 sm:py-16">
+           <div className="relative overflow-hidden bg-[#111827] px-8 py-12 text-white sm:px-12 sm:py-16">
               <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full border border-white/10" />
 <div className="pointer-events-none absolute -bottom-32 right-24 h-72 w-72 rounded-full border border-white/[0.06]" />
 
 <div className="relative z-10">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-white/25" />
+  <div className="h-px w-8 bg-[#60A5FA]/80" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/50">
     Contact
@@ -504,11 +504,11 @@ export default function ResumePage() {
 
 <a
   href="/contact"
-  className="group mt-8 inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/90"
+  className="group mt-8 inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-medium text-[#111827] transition-all duration-300 hover:-translate-y-0.5 hover:text-[#2563EB]"
 >
   Contact Me
 
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+<span className="text-black/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </a>

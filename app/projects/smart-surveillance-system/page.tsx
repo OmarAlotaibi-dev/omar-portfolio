@@ -92,25 +92,25 @@ export default function SmartSurveillanceSystemPage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]">
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
             <a
   href="/projects"
-  className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-black"
+className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-[#2563EB]"
 >
   <span className="transition-transform duration-300 group-hover:-translate-x-1">
     ←
   </span>
 
-  <span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-black/50">
+ <span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-[#2563EB]/60">
     Back to Projects
   </span>
 </a>
             <div className="mt-16 max-w-5xl">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Systems Analysis & Design
@@ -178,7 +178,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Overview
@@ -192,9 +192,9 @@ export default function SmartSurveillanceSystemPage() {
                 </h2>
                 <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Scenarios</span>
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Behavioral Models</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>System Design</span>
 </div>
 
@@ -222,7 +222,7 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-20 sm:py-24">
             <div className="mb-8 max-w-3xl">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Featured Diagram
@@ -267,7 +267,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+<div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     System Scope
@@ -291,7 +291,7 @@ export default function SmartSurveillanceSystemPage() {
     {item.number}
   </span>
 
-  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+<div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 </div>
 
 <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -315,8 +315,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
-
+ <div className="h-px w-8 bg-[#2563EB]/70" />
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Analysis Process
   </p>
@@ -335,7 +334,7 @@ export default function SmartSurveillanceSystemPage() {
       01
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 
   <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -353,8 +352,7 @@ export default function SmartSurveillanceSystemPage() {
     <span className="font-mono text-xs tracking-wide text-black/35">
       02
     </span>
-
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+<div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 
   <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -374,7 +372,7 @@ export default function SmartSurveillanceSystemPage() {
       03
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 
   <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -393,7 +391,7 @@ export default function SmartSurveillanceSystemPage() {
       04
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+<div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 
   <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -418,7 +416,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Project Artifacts
@@ -437,7 +435,7 @@ export default function SmartSurveillanceSystemPage() {
   key={artifact}
   className="group flex items-center gap-3 border-t border-black/10 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
 >
-  <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-7 group-hover:bg-black/35" />
+  <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-7 group-hover:bg-[#2563EB]/70" />
   <span className="transition-transform duration-300 group-hover:translate-x-1">
     {artifact}
   </span>
@@ -455,7 +453,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+<div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Object Design
@@ -469,9 +467,9 @@ export default function SmartSurveillanceSystemPage() {
                 </h2>
 <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Interfaces</span>
-  <div className="h-px w-8 bg-black/15" />
+<div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Constraints</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Object Behavior</span>
 </div>
                 <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
@@ -497,7 +495,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     System Architecture
@@ -523,7 +521,7 @@ export default function SmartSurveillanceSystemPage() {
       01
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+<div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 
   <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -541,7 +539,7 @@ export default function SmartSurveillanceSystemPage() {
       02
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+   <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 
   <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -559,7 +557,7 @@ export default function SmartSurveillanceSystemPage() {
       03
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
   </div>
 
   <h3 className="mt-3 text-lg font-semibold tracking-tight transition-transform duration-300 group-hover:translate-x-1">
@@ -582,7 +580,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     My Contribution
@@ -621,7 +619,7 @@ export default function SmartSurveillanceSystemPage() {
   key={item}
   className="group flex items-center gap-3 border-t border-black/10 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
 >
-  <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+ <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-transform duration-300 group-hover:translate-x-1">
     {item}
@@ -640,7 +638,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Methods & Concepts
@@ -654,7 +652,7 @@ export default function SmartSurveillanceSystemPage() {
       key={method}
       className="group flex items-center gap-3 border-t border-black/10 px-1 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
     >
-      <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-black/35" />
+      <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-[#2563EB]/70" />
 
       <span className="transition-transform duration-300 group-hover:translate-x-1">
         {method}
@@ -672,7 +670,7 @@ export default function SmartSurveillanceSystemPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Key Takeaways
@@ -683,7 +681,7 @@ export default function SmartSurveillanceSystemPage() {
               <div>
                 <ul className="divide-y divide-black/10 border-y border-black/10">
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+ <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Translating real-world system behavior into structured
@@ -692,7 +690,7 @@ export default function SmartSurveillanceSystemPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+<span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Converting behavioral requirements into UML sequence
@@ -701,7 +699,7 @@ export default function SmartSurveillanceSystemPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+<span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Understanding how use cases evolve from initial analysis
@@ -710,7 +708,7 @@ export default function SmartSurveillanceSystemPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+ <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Applying access-control analysis across actors, system
@@ -719,7 +717,7 @@ export default function SmartSurveillanceSystemPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+<span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Connecting behavioral analysis with object design,
@@ -728,7 +726,7 @@ export default function SmartSurveillanceSystemPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+ <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Collaborating within a team while owning defined analysis
@@ -746,7 +744,7 @@ export default function SmartSurveillanceSystemPage() {
           <div className="mx-auto max-w-7xl px-6 py-20">
             <div className="max-w-3xl">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Project Note

@@ -11,7 +11,7 @@ export default function Hero() {
   <div className="max-w-3xl">
 
 <div className="mb-6 flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-sm font-medium uppercase tracking-[0.18em] text-black/45">
     Management Information Systems & Technology
@@ -24,7 +24,7 @@ export default function Hero() {
   Into{" "}
   <span className="relative inline-block">
     Business Impact.
-    <span className="absolute -bottom-2 left-0 h-px w-full bg-black/20" />
+    <span className="absolute -bottom-2 left-0 h-px w-full bg-[#2563EB]/50" />
   </span>
 </h1>
 
@@ -39,7 +39,7 @@ export default function Hero() {
 
             <a
   href="/projects"
-  className="group inline-flex items-center gap-3 rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-black/85"
+ className="group inline-flex items-center gap-3 bg-[#111827] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2563EB]"
 >
   View My Work
   <span className="transition-transform duration-300 group-hover:translate-x-1">
@@ -108,8 +108,8 @@ export default function Hero() {
 </div>
 <div className="ml-10 h-4 border-l border-black/20" />
 
-<div className="ml-10 max-w-[92%] rounded-2xl border border-black/10 bg-black p-6 text-white transition-all duration-300 hover:-translate-y-1">
-  <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/40">
+<div className="ml-10 max-w-[92%] rounded-2xl border border-black/10 bg-[#111827] p-6 text-white transition-all duration-300 hover:-translate-y-1">
+  <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#60A5FA]">
     02
   </p>
 
@@ -118,7 +118,7 @@ export default function Hero() {
   </h3>
   <div className="mt-3 flex items-center gap-2 text-xs uppercase tracking-[0.16em] text-white/35">
   <span>Business</span>
-  <span>→</span>
+  <span className="text-[#60A5FA]">→</span>
   <span>Technology</span>
 </div>
 

@@ -13,7 +13,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      {/*bcakground color and text color are set to match the design*/}
+      <main className="bg-[#F7F8FA] text-[#111827]">
         <Hero />
         <ProfessionalOverview/>
         <FeaturedProjects />

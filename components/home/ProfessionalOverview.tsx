@@ -5,7 +5,7 @@ export default function ProfessionalOverview() {
         <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
           <div>
   <div className="flex items-center gap-3">
-    <div className="h-px w-8 bg-black/20" />
+    <div className="h-px w-8 bg-[#2563EB]/70" />
 
     <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
       About My Profile
@@ -60,7 +60,7 @@ export default function ProfessionalOverview() {
               <span className="border-b border-black/30 pb-1 transition-colors group-hover:border-black">
               More About Me
                 </span>
-                <span className="transition-transform duration-300 group-hover:translate-x-1">
+                <span className="text-[#2563EB] transition-transform duration-300 group-hover:translate-x-1">
                      →
                     </span>
             </a>

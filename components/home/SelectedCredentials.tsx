@@ -33,7 +33,7 @@ export default function SelectedCredentials() {
           {/* Section Title */}
           <div>
             <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Selected Credentials
@@ -58,7 +58,7 @@ export default function SelectedCredentials() {
     {String(index + 1).padStart(2, "0")}
   </span>
 
-  <div className="h-px w-5 bg-black/10 transition-all duration-300 group-hover:w-8 group-hover:bg-black/30" />
+ <div className="h-px w-5 bg-black/10 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 </div>
 
                   <div className="flex items-center gap-2">
@@ -87,7 +87,7 @@ export default function SelectedCredentials() {
     View All Credentials
   </span>
 
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+ <span className="text-black/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </a>
@@ -96,7 +96,7 @@ export default function SelectedCredentials() {
   href="https://www.credly.com/users/omar_alotaibi/badges/credly"
   target="_blank"
   rel="noopener noreferrer"
-  className="group inline-flex items-center gap-3 rounded-full bg-black px-5 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-black/85"
+  className="group inline-flex items-center gap-3 bg-[#111827] px-5 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2563EB]"
 >
   <span>View on Credly</span>
 

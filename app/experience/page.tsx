@@ -101,12 +101,12 @@ export default function ExperiencePage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]">
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Professional Experience
@@ -125,9 +125,9 @@ export default function ExperiencePage() {
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Operations</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Data</span>
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Information Technology</span>
 </div>
           </div>
@@ -149,14 +149,14 @@ export default function ExperiencePage() {
       {String(index + 1).padStart(2, "0")}
     </span>
 
-    <div className="h-px w-8 bg-black/10 transition-all duration-300 group-hover:w-12 group-hover:bg-black/30" />
+   <div className="h-px w-8 bg-black/10 transition-all duration-300 group-hover:w-12 group-hover:bg-[#2563EB]/70" />
   </div>
 </div>
 
                   {/* Role */}
                   <div>
 <div className="flex items-center gap-3">
-  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="font-mono text-xs uppercase tracking-[0.12em] text-black/40">
     {item.period}
@@ -194,7 +194,7 @@ export default function ExperiencePage() {
     key={responsibility}
     className="group/item flex items-start gap-3 py-4"
   >
-    <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover/item:bg-black/60" />
+   <span className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover/item:bg-[#2563EB]" />
 
     <span className="text-sm leading-6 text-black/60 transition-transform duration-300 group-hover/item:translate-x-1 group-hover/item:text-black/75">
       {responsibility}
@@ -218,7 +218,7 @@ export default function ExperiencePage() {
     className="group/impact border-t border-black/10 py-5"
   >
     <div className="flex items-start gap-4">
-      <div className="mt-3 h-px w-6 shrink-0 bg-black/15 transition-all duration-300 group-hover/impact:w-10 group-hover/impact:bg-black/40" />
+     <div className="mt-3 h-px w-6 shrink-0 bg-black/15 transition-all duration-300 group-hover/impact:w-10 group-hover/impact:bg-[#2563EB]/70" />
 
       <p className="text-base font-medium leading-7 text-black/75 transition-transform duration-300 group-hover/impact:translate-x-1">
         {impact}
@@ -255,7 +255,7 @@ export default function ExperiencePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Professional Capabilities
@@ -275,7 +275,7 @@ export default function ExperiencePage() {
     className="group/capability border-t border-black/10 py-5"
   >
     <div className="flex items-center gap-3">
-      <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover/capability:w-8 group-hover/capability:bg-black/35" />
+     <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover/capability:w-8 group-hover/capability:bg-[#2563EB]/70" />
 
       <p className="text-lg font-medium tracking-tight transition-transform duration-300 group-hover/capability:translate-x-1">
         {capability}
@@ -295,7 +295,7 @@ export default function ExperiencePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Professional Progression
@@ -309,12 +309,12 @@ export default function ExperiencePage() {
                 </h2>
 <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Operations</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Data & Information</span>
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>IT & Systems</span>
 </div>
-                <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
+               <p className="mt-8 max-w-3xl border-l border-[#2563EB]/35 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   My professional background began with operational and
                   government-process responsibilities, progressed into data
                   and information-management work, and later expanded into
@@ -338,7 +338,7 @@ export default function ExperiencePage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+<div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Beyond Professional Experience
@@ -352,7 +352,7 @@ export default function ExperiencePage() {
                   presented separately throughout this portfolio.
                 </p>
 
-               <p className="mt-8 max-w-3xl border-l border-black/15 pl-5 text-base leading-7 text-black/60 sm:text-lg">
+               <p className="mt-8 max-w-3xl border-l border-[#2563EB]/35 pl-5 text-base leading-7 text-black/60 sm:text-lg">
                   This page focuses specifically on formal employment and
                   professional responsibilities. Technical applications,
                   systems-analysis work, database projects, and research are
@@ -367,13 +367,13 @@ export default function ExperiencePage() {
        {/* Next Step */}
 <section className="border-t border-black/10">
   <div className="mx-auto max-w-7xl px-6 py-24">
-    <div className="relative overflow-hidden bg-black px-8 py-12 text-white sm:px-12 sm:py-16">
+    <div className="relative overflow-hidden bg-[#111827] px-8 py-12 text-white sm:px-12 sm:py-16">
       <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full border border-white/10" />
       <div className="pointer-events-none absolute -bottom-32 right-24 h-72 w-72 rounded-full border border-white/[0.06]" />
 
       <div className="relative z-10">
         <div className="flex items-center gap-3">
-          <div className="h-px w-8 bg-white/25" />
+          <div className="h-px w-8 bg-[#60A5FA]/80" />
 
           <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/50">
             Explore More
@@ -388,7 +388,7 @@ export default function ExperiencePage() {
         <div className="mt-8 flex flex-wrap gap-3">
           <a
             href="/projects"
-            className="group inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/90"
+className="group inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-medium text-[#111827] transition-all duration-300 hover:-translate-y-0.5 hover:text-[#2563EB]"
           >
             View Projects
 
@@ -399,7 +399,7 @@ export default function ExperiencePage() {
 
           <a
             href="/research"
-            className="group inline-flex items-center gap-3 border border-white/30 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-white"
+className="group inline-flex items-center gap-3 border border-white/20 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-[#60A5FA]/70 hover:text-[#60A5FA]"
           >
             View Research
 

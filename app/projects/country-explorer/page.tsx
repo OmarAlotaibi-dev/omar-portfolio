@@ -7,25 +7,25 @@ export default function CountryExplorerPage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]"> 
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
             <a
   href="/projects"
-  className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-black"
+ className="group inline-flex items-center gap-2 text-sm font-medium text-black/45 transition-colors hover:text-[#2563EB]"
 >
   <span className="transition-transform duration-300 group-hover:-translate-x-1">
     ←
   </span>
 
-  <span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-black/50">
+  <span className="border-b border-black/20 pb-1 transition-colors duration-300 group-hover:border-[#2563EB]/60">
     Back to Projects
   </span>
 </a>
             <div className="mt-16 max-w-5xl">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Web Development & API Integration
@@ -98,7 +98,7 @@ export default function CountryExplorerPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Overview
@@ -113,7 +113,7 @@ export default function CountryExplorerPage() {
                 <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>01 Front-End</span>
 
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>02 API Integration</span>
 </div>
@@ -142,7 +142,7 @@ export default function CountryExplorerPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Project Structure
@@ -157,7 +157,7 @@ export default function CountryExplorerPage() {
       01
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 
     <span className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
       Part
@@ -182,7 +182,7 @@ export default function CountryExplorerPage() {
       02
     </span>
 
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 
     <span className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
       Part
@@ -211,7 +211,7 @@ export default function CountryExplorerPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Technologies
@@ -232,7 +232,7 @@ export default function CountryExplorerPage() {
   key={technology}
   className="group flex items-center gap-3 border-t border-black/10 px-1 py-4 text-sm font-medium text-black/60 transition-colors duration-300 hover:text-black"
 >
-  <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-black/35" />
+  <span className="h-px w-4 bg-black/15 transition-all duration-300 group-hover:w-6 group-hover:bg-[#2563EB]/70" />
 
   {technology}
 </span>
@@ -248,7 +248,7 @@ export default function CountryExplorerPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     What I Worked On
@@ -259,7 +259,7 @@ export default function CountryExplorerPage() {
               <div className="grid gap-8 sm:grid-cols-2">
                 <div className="group border-t border-black/10 py-5">
 <div className="flex items-center gap-3">
-  <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+  <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
   <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
     Dynamic Rendering
@@ -274,7 +274,7 @@ export default function CountryExplorerPage() {
 
 <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+   <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       Search & Filtering
@@ -289,7 +289,7 @@ export default function CountryExplorerPage() {
 
 <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+   <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       REST API
@@ -304,7 +304,7 @@ export default function CountryExplorerPage() {
 
                 <div className="group border-t border-black/10 py-5">
   <div className="flex items-center gap-3">
-    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-black/35" />
+    <div className="h-px w-5 bg-black/15 transition-all duration-300 group-hover:w-8 group-hover:bg-[#2563EB]/70" />
 
     <h3 className="text-lg font-semibold tracking-tight transition-all duration-300 group-hover:translate-x-1">
       Data Presentation
@@ -327,7 +327,7 @@ export default function CountryExplorerPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Key Takeaways
@@ -338,7 +338,7 @@ export default function CountryExplorerPage() {
               <div>
                 <ul className="divide-y divide-black/10 border-y border-black/10">
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Building browser-based interfaces with JavaScript and DOM
@@ -347,7 +347,7 @@ export default function CountryExplorerPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Working with external REST APIs and JSON data.
@@ -355,7 +355,7 @@ export default function CountryExplorerPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+ <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Implementing search, filtering, pagination, and detailed
@@ -364,7 +364,7 @@ export default function CountryExplorerPage() {
 </li>
 
 <li className="group flex items-start gap-4 py-6 text-base text-black/65">
-  <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+ <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <span className="transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
     Extending a front-end project from local data to
@@ -381,7 +381,7 @@ export default function CountryExplorerPage() {
         <section className="border-t border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24">
 <div className="mb-8 flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Project Repositories
@@ -393,7 +393,7 @@ export default function CountryExplorerPage() {
   href="https://github.com/OmarAlotaibi-dev/COUNTRY_EXPLORER"
   target="_blank"
   rel="noopener noreferrer"
-  className="group inline-flex items-center justify-between gap-6 bg-black px-6 py-4 text-sm font-medium text-white transition-all duration-300 hover:bg-black/85"
+  className="group inline-flex items-center justify-between gap-6 bg-[#111827] px-6 py-4 text-sm font-medium text-white transition-all duration-300 hover:bg-[#2563EB]"
 >
   <span>Front-End Repository</span>
 
@@ -406,11 +406,11 @@ export default function CountryExplorerPage() {
   href="https://github.com/OmarAlotaibi-dev/country-explorer-rest-API"
   target="_blank"
   rel="noopener noreferrer"
-  className="group inline-flex items-center justify-between gap-6 border border-black/15 px-6 py-4 text-sm font-medium text-black transition-all duration-300 hover:border-black/40 hover:bg-black/[0.02]"
+ className="group inline-flex items-center justify-between gap-6 border border-black/15 px-6 py-4 text-sm font-medium text-[#111827] transition-all duration-300 hover:border-[#2563EB]/60 hover:text-[#2563EB]"
 >
   <span>REST API Repository</span>
 
-  <span className="text-black/35 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-1">
+  <span className="text-black/35 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     ↗
   </span>
 </a>

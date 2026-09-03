@@ -8,7 +8,7 @@ export default function FeaturedProjects() {
         <div className="flex items-end justify-between gap-6">
           <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" /> 
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Selected Work
@@ -45,7 +45,7 @@ className="group grid gap-6 px-0 py-9 transition-all duration-300 hover:bg-black
     {project.number}
   </span>
 
-  <div className="hidden h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30 md:block" />
+ <div className="hidden h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70 md:block" />
 </div>
 
               <div>
@@ -56,7 +56,7 @@ className="group grid gap-6 px-0 py-9 transition-all duration-300 hover:bg-black
 <h3 className="mt-2 inline-flex items-center gap-2 text-xl font-semibold tracking-tight">
   <span>{project.title}</span>
 
-  <span className="text-black/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-black/60">
+  <span className="text-black/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </h3>
@@ -87,7 +87,7 @@ className="group mt-8 inline-flex items-center gap-3 text-sm font-medium sm:hidd
   <span className="border-b border-black/30 pb-1 transition-colors group-hover:border-black">
     View All Projects
   </span>
-  <span className="transition-transform duration-300 group-hover:translate-x-1">
+  <span className="text-black/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
  →
     </span>
           

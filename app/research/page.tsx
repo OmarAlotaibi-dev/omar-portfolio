@@ -60,12 +60,12 @@ export default function ResearchPage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]">
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Research
@@ -83,9 +83,9 @@ export default function ResearchPage() {
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Databases</span>
-  <div className="h-px w-8 bg-black/15" />
+  <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>AI Policy</span>
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Emerging Technology</span>
 </div>
           </div>
@@ -97,7 +97,7 @@ export default function ResearchPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Research Areas
@@ -141,7 +141,7 @@ export default function ResearchPage() {
 
                 <div>
   <div className="flex items-center gap-3">
-    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+   <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
     <p className="text-xs font-medium uppercase tracking-[0.16em] text-black/40">
       {research.category}
@@ -162,9 +162,9 @@ export default function ResearchPage() {
   {research.tags.map((tag) => (
     <div
       key={tag}
-      className="flex items-center gap-3 border-t border-black/10 py-3 text-xs font-medium uppercase tracking-[0.12em] text-black/45"
+     className="group/tag flex items-center gap-3 border-t border-black/10 py-3 text-xs font-medium uppercase tracking-[0.12em] text-black/45"
     >
-      <span className="h-px w-4 bg-black/15" />
+      <span className="h-px w-4 bg-black/15 transition-colors duration-300 group-hover/tag:bg-[#2563EB]/70" />
       {tag}
     </div>
   ))}
@@ -181,7 +181,7 @@ export default function ResearchPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Research Approach
@@ -196,9 +196,9 @@ export default function ResearchPage() {
                 </h2>
                 <div className="mt-8 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Technical Analysis</span>
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Business Context</span>
-  <div className="h-px w-8 bg-black/15" />
+ <div className="h-px w-8 bg-[#2563EB]/40" />
   <span>Policy Context</span>
 </div>
 
@@ -220,7 +220,7 @@ export default function ResearchPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+<div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Research Direction

@@ -4,7 +4,7 @@ export default function CTA() {
   return (
     <section className="border-t border-black/10">
       <div className="mx-auto max-w-7xl px-6 py-24">
-        <div className="relative overflow-hidden rounded-3xl bg-black px-8 py-14 text-white sm:px-12 sm:py-16">
+        <div className="relative overflow-hidden bg-[#111827] px-8 py-12 text-white sm:px-12 sm:py-16">
 {/* Background visual */}
 <div className="pointer-events-none absolute inset-0">
   <div className="absolute -right-20 -top-24 h-72 w-72 rounded-full border border-white/10" />
@@ -13,7 +13,7 @@ export default function CTA() {
 <div className="relative z-10">
 
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-white/25" />
+  <div className="h-px w-8 bg-[#60A5FA]/80" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-white/50">
     Let&apos;s Connect
@@ -35,7 +35,7 @@ export default function CTA() {
           <div className="mt-9 flex flex-wrap gap-3">
  <Link
   href="/contact"
-  className="group inline-flex items-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition-all duration-300 hover:-translate-y-0.5"
+  className="group inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-medium text-[#111827] transition-all duration-300 hover:-translate-y-0.5 hover:text-[#2563EB]"
 >
   <span>Get In Touch</span>
 
@@ -46,11 +46,11 @@ export default function CTA() {
 
 <Link
   href="/projects"
-  className="group inline-flex items-center gap-3 rounded-full border border-white/20 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-white/50"
+  className="group inline-flex items-center gap-3 border border-white/20 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-[#60A5FA]/70 hover:text-[#60A5FA]"
 >
   <span>Explore My Work</span>
 
-  <span className="text-white/50 transition-transform duration-300 group-hover:translate-x-1">
+  <span className="text-white/50 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#60A5FA]">
     →
   </span>
 </Link>

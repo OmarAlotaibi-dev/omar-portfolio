@@ -6,12 +6,12 @@ export default function AboutPage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]">
         {/* About page */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
      <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     About
@@ -32,10 +32,10 @@ export default function AboutPage() {
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Business</span>
-  <span className="h-px w-8 bg-black/15" />
+  <span className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>Systems</span>
-  <span className="h-px w-8 bg-black/15" />
+  <span className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>Technology</span>
 </div>
@@ -49,7 +49,7 @@ export default function AboutPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Professional Profile
@@ -89,7 +89,7 @@ export default function AboutPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Education
@@ -102,7 +102,7 @@ export default function AboutPage() {
                   <div className="flex flex-wrap items-start justify-between gap-4">
                     <div>
 <div className="flex items-center gap-3">
-  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
     Master of Science
@@ -131,7 +131,7 @@ export default function AboutPage() {
                   <div className="flex flex-wrap items-start justify-between gap-4">
                     <div>
 <div className="flex items-center gap-3">
-  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="text-xs font-medium uppercase tracking-[0.14em] text-black/40">
     Bachelor of Arts
@@ -169,7 +169,7 @@ export default function AboutPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Experience
@@ -180,7 +180,7 @@ export default function AboutPage() {
               <div>
                 <div className="group border-t border-black/10 px-0 py-7 transition-all duration-300 hover:bg-black/[0.025] hover:px-5">
 <div className="flex items-center gap-3">
-  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="font-mono text-xs tracking-wide text-black/35">
     May 2025 – July 2025
@@ -209,7 +209,7 @@ export default function AboutPage() {
 
                 <div className="group mt-10 border-t border-black/10 px-0 py-7 transition-all duration-300 hover:bg-black/[0.025] hover:px-5">
 <div className="flex items-center gap-3">
-  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="font-mono text-xs tracking-wide text-black/35">
     March 2021 – March 2022
@@ -237,7 +237,7 @@ export default function AboutPage() {
 
                 <div className="group mt-10 border-t border-black/10 px-0 py-7 transition-all duration-300 hover:bg-black/[0.025] hover:px-5">
 <div className="flex items-center gap-3">
-  <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/60" />
+ <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
   <p className="font-mono text-xs tracking-wide text-black/35">
     January 2018 – February 2020
@@ -273,7 +273,7 @@ export default function AboutPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Areas of Focus
@@ -295,7 +295,7 @@ export default function AboutPage() {
   className="group border-t border-black/10 py-5 transition-all duration-300"
 >
   <div className="flex items-center gap-4">
-    <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+   <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 
     <p className="text-lg font-medium tracking-tight text-black/75 transition-all duration-300 group-hover:translate-x-1 group-hover:text-black">
       {area}
@@ -314,7 +314,7 @@ export default function AboutPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Approach
@@ -367,7 +367,7 @@ export default function AboutPage() {
             <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
               <div>
 <div className="flex items-center gap-3">
-  <div className="h-px w-8 bg-black/20" />
+ <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Career Direction

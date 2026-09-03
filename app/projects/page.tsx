@@ -7,13 +7,13 @@ export default function ProjectsPage() {
     <>
       <Navbar />
 
-      <main>
+      <main className="bg-[#F7F8FA] text-[#111827]">
         {/* Hero */}
         <section className="border-b border-black/10">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
 <div className="flex items-center gap-3">
 
-  <div className="h-px w-8 bg-black/20" />
+  <div className="h-px w-8 bg-[#2563EB]/70" />
 
   <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
     Projects
@@ -32,11 +32,11 @@ export default function ProjectsPage() {
             <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-3 text-xs font-medium uppercase tracking-[0.16em] text-black/35">
   <span>Software</span>
 
-  <span className="h-px w-8 bg-black/15" />
+  <span className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>Systems</span>
 
-  <span className="h-px w-8 bg-black/15" />
+  <span className="h-px w-8 bg-[#2563EB]/40" />
 
   <span>Data</span>
 </div>
@@ -59,14 +59,14 @@ export default function ProjectsPage() {
     {project.number}
   </span>
 
-  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-black/30" />
+  <div className="h-px w-6 bg-black/10 transition-all duration-300 group-hover:w-10 group-hover:bg-[#2563EB]/70" />
 </div>
 
                     {/* Project Info */}
                     <div>
                      <div className="flex flex-wrap items-center gap-3">
   <div className="flex items-center gap-2">
-    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-black/50" />
+    <span className="h-1.5 w-1.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-[#2563EB]" />
 
     <p className="text-xs font-medium uppercase tracking-[0.14em] text-black/45">
       {project.category}
@@ -85,7 +85,7 @@ export default function ProjectsPage() {
     {project.title}
   </span>
 
-  <span className="text-black/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-black/60">
+  <span className="text-black/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#2563EB]">
     →
   </span>
 </h2>
