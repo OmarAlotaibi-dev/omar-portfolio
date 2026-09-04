@@ -9,8 +9,8 @@ export const metadata: Metadata = {
     default: "Omar Alotaibi | Management Information Systems & Technology",
     template: "%s | Omar Alotaibi",
   },
-  description:
-    "Professional portfolio of Omar Alotaibi, M.S. in Management Information Systems, featuring experience and work across business and systems analysis, software development, databases, data analytics, cloud, and IT.",
+ description:
+  "Professional portfolio of Omar Alotaibi (عمر العتيبي), M.S. in Management Information Systems (MIS), featuring business and systems analysis, digital transformation, software development, databases, data analytics, cloud, and IT.",
   keywords: [
     "Omar Alotaibi",
     "Management Information Systems",
@@ -25,6 +25,13 @@ export const metadata: Metadata = {
     "Digital Transformation",
     "Riyadh",
     "Saudi Arabia",
+    "عمر العتيبي",
+"عمر العتيبي نظم معلومات إدارية",
+"عمر العتيبي محلل أعمال",
+"عمر العتيبي محلل نظم",
+"عمر العتيبي التحول الرقمي",
+"نظم المعلومات الإدارية",
+"التحول الرقمي",
   ],
   authors: [{ name: "Omar Alotaibi" }],
   creator: "Omar Alotaibi",
