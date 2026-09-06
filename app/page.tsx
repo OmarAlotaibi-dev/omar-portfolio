@@ -16,7 +16,7 @@ export default function Home() {
     name: "Omar Adnan Alotaibi",
     alternateName: [
       "عمر العتيبي",
-      "Omar Adnan Alotaibi",
+      "Omar Alotaibi",
       "عمر عدنان العتيبي"
     ],
     
