@@ -61,7 +61,7 @@ export default function Footer() {
       {/* Copyright */}
       <div className="border-t border-black/10">
         <div className="mx-auto max-w-7xl px-6 py-5 text-xs text-black/35">
-          © {new Date().getFullYear()} Omar Alotaibi. All rights reserved.
+          © {new Date().getFullYear()} Omar Adnan Alotaibi. All rights reserved.
         </div>
       </div>
     </footer>
