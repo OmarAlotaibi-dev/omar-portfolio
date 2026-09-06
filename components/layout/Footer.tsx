@@ -10,7 +10,7 @@ export default function Footer() {
             href="/"
             className="font-semibold tracking-tight transition-colors hover:text-[#2563EB]"
           >
-            Omar Alotaibi
+            Omar Adnan Alotaibi
           </Link>
 
           <p className="mt-1 text-sm text-black/45">

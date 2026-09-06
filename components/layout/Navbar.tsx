@@ -27,7 +27,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(false)}
             className="shrink-0 text-base font-semibold tracking-tight"
           >
-            Omar Alotaibi
+            Omar Adnan Alotaibi
           </Link>
 
           {/* Desktop Navigation */}

@@ -6,11 +6,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://omar-portfolio-black-theta.vercel.app"),
   title: {
-    default: "Omar Alotaibi | Management Information Systems & Technology",
-    template: "%s | Omar Alotaibi",
+    default: "Omar Adnan Alotaibi | Management Information Systems & Technology",
+    template: "%s | Omar Adnan Alotaibi",
   },
  description:
-  "Professional portfolio of Omar Alotaibi (عمر العتيبي), M.S. in Management Information Systems (MIS), featuring business and systems analysis, digital transformation, software development, databases, data analytics, cloud, and IT.",
+  "Professional portfolio of Omar Alotaibi (Omar Adnan Alotaibi | عمر عدنان العتيبي), M.S. in Management Information Systems (MIS), featuring business and systems analysis, digital transformation, software development, databases, data analytics, cloud, and IT.",
   keywords: [
     "Omar Alotaibi",
     "Management Information Systems",
@@ -32,19 +32,23 @@ export const metadata: Metadata = {
 "عمر العتيبي التحول الرقمي",
 "نظم المعلومات الإدارية",
 "التحول الرقمي",
+"Omar Adnan Alotaibi",
+"عمر عدنان العتيبي",
+"عمر عدنان العتيبي نظم معلومات إدارية",
+"عمر عدنان العتيبي التحول الرقمي",
   ],
-  authors: [{ name: "Omar Alotaibi" }],
-  creator: "Omar Alotaibi",
+  authors: [{ name: "Omar  Alotaibi" }],
+  creator: "Omar Adnan Alotaibi",
   verification: {
     google: "GEqwknKP51VKQP1EfoAXPzcd9t9S4Vuc7ToWZyWuCtU",
   },
 openGraph: {
   type: "website",
   locale: "en_US",
-  title: "Omar Alotaibi | Management Information Systems & Technology",
+  title: "Omar Adnan Alotaibi | Management Information Systems & Technology",
   description:
     "Professional portfolio featuring experience, technical projects, research, and skills across information systems, software, data, and IT.",
-  siteName: "Omar Alotaibi Portfolio",
+  siteName: "Omar Adnan Alotaibi Portfolio",
   images: [
     {
       url: "/og-image.png",
@@ -57,7 +61,7 @@ openGraph: {
 
 twitter: {
   card: "summary_large_image",
-  title: "Omar Alotaibi | Management Information Systems & Technology",
+  title: "Omar Adnan Alotaibi | Management Information Systems & Technology",
   description:
     "Professional portfolio featuring experience, technical projects, research, and skills across information systems, software, data, and IT.",
   images: ["/og-image.png"],

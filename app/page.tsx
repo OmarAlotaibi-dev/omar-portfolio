@@ -13,8 +13,13 @@ export default function Home() {
     const personJsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Omar Alotaibi",
-    alternateName: "عمر العتيبي",
+    name: "Omar Adnan Alotaibi",
+    alternateName: [
+      "عمر العتيبي",
+      "Omar Adnan Alotaibi",
+      "عمر عدنان العتيبي"
+    ],
+    
     url: "https://omar-portfolio-black-theta.vercel.app",
     sameAs: [
       "https://github.com/OmarAlotaibi-dev",
