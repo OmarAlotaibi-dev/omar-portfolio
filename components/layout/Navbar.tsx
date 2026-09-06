@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 
+import Image from "next/image";
+
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
@@ -22,13 +24,23 @@ export default function Navbar() {
       <nav className="mx-auto max-w-7xl px-6">
         <div className="flex h-20 items-center justify-between">
           {/* Brand */}
-          <Link
-            href="/"
-            onClick={() => setMenuOpen(false)}
-            className="shrink-0 text-base font-semibold tracking-tight"
-          >
-            Omar Adnan Alotaibi
-          </Link>
+{/* Brand */}
+<Link
+  href="/"
+  onClick={() => setMenuOpen(false)}
+  className="flex shrink-0 items-center gap-3 text-base font-semibold tracking-tight"
+>
+  <Image
+    src="/omar-adnan-alotaibi.jpg"
+    alt="Omar Adnan Alotaibi"
+    width={40}
+    height={40}
+    priority
+    className="h-10 w-10 rounded-full object-cover object-top"
+  />
+
+  <span>Omar Adnan Alotaibi</span>
+</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden items-center gap-6 md:flex">
