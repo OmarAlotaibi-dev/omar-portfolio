@@ -24,6 +24,7 @@ export default function Home() {
     sameAs: [
       "https://github.com/OmarAlotaibi-dev",
       "https://www.credly.com/users/omar_alotaibi",
+        "https://www.linkedin.com/in/omar-alotaibi11071998/",
     ],
  alumniOf: [
   {

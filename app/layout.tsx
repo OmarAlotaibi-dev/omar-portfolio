@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 "عمر عدنان العتيبي نظم معلومات إدارية",
 "عمر عدنان العتيبي التحول الرقمي",
   ],
-  authors: [{ name: "Omar  Alotaibi" }],
+  authors: [{ name: "Omar Adnan Alotaibi" }],
   creator: "Omar Adnan Alotaibi",
   verification: {
     google: "GEqwknKP51VKQP1EfoAXPzcd9t9S4Vuc7ToWZyWuCtU",
@@ -54,7 +54,7 @@ openGraph: {
       url: "/og-image.png",
       width: 1200,
       height: 630,
-      alt: "Omar Alotaibi Professional Portfolio",
+      alt: "Omar Adnan Alotaibi Professional Portfolio",
     },
   ],
 },
